@@ -6,7 +6,8 @@
       "placeholder": "Recherchez le titre / le jeu",
       "noResult": "Aucun résultat trouvé... Vous pouvez consulter la liste de toutes les musiques disponibles en cliquant sur le bouton en haut à droite de l'écran",
       "submit": "Soumettre",
-      "skip": "Passer"
+      "skip": "Passer",
+      "skipWithSeconds": "Passer (+ {{secondNb}} s)"
     },
     "attempts": {
       "skipped": "PASSÉE"

@@ -6,7 +6,8 @@
       "placeholder": "Know it? Search for the title / the game",
       "noResult": "No result found... You can use the button at the top right of the screen to see the list of all available tracks",
       "submit": "Submit",
-      "skip": "Skip"
+      "skip": "Skip",
+      "skipWithSeconds": "Skip (+ {{secondNb}} s)"
     },
     "attempts": {
       "skipped": "SKIPPED"
