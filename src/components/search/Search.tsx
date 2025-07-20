@@ -6,6 +6,8 @@ import type { MusicElement } from '../../config/types'
 import Option from './Option'
 import './Search.css'
 import Button, { Variant } from '../commons/Button'
+import SearchIcon from '../../img/search.svg?react'
+import CrossIcon from '../../img/cross.svg?react'
 
 const FUSE_BASE_OPTIONS = {
 	ignoreDiacritics: true,
@@ -20,6 +22,14 @@ const Search = () => {
 	const [showOptions, setShowOptions] = React.useState<boolean>(false)
 	const [selectedMusic, setSelectedMusic] = React.useState<MusicElement | undefined>()
 	const inputRef = React.useRef<HTMLInputElement>(null)
+
+	const resetInput = () => {
+		setSearch(undefined)
+		setSelectedMusic(undefined)
+		if (inputRef.current) {
+			inputRef.current.value = ''
+		}
+	}
 
 	const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
 		setSearch(e.target.value)
@@ -52,11 +62,12 @@ const Search = () => {
 		<>
 			<div className='search'>
 				{showOptions && search && (
-					<ul className='option-list'>
+					<ul className='option-list' role='listbox'>
 						{getSearchResults().map((music) => (
 							<Option
 								music={music}
 								onSelect={() => {
+									console.log(music)
 									setSelectedMusic(music)
 									setSearch(music.name[language])
 								}}
@@ -64,6 +75,7 @@ const Search = () => {
 						))}
 					</ul>
 				)}
+				<SearchIcon className='search-icon' />
 				<input
 					className='search-bar'
 					ref={inputRef}
@@ -72,6 +84,11 @@ const Search = () => {
 					onBlur={() => setShowOptions(false)}
 					value={search}
 					placeholder={t('game.search.placeholder')}
+				/>
+				<CrossIcon
+					role='button'
+					className='search-reset-icon'
+					onClick={resetInput}
 				/>
 			</div>
 			<div className='search-buttons'>

@@ -4,7 +4,7 @@ import './AudioPlayer.css'
 import { useHeardleContext } from '../../context/HeardleContext.tsx'
 import ProgressBar from './ProgressBar.tsx'
 import { HEARDLE_SPLITS } from '../../config/consts.ts'
-import ArrowDown from '../../img/arrowDown.svg?react'
+import ArrowDownIcon from '../../img/arrowDown.svg?react'
 import PlayButton from './PlayButton.tsx'
 import { toTimeString } from '../../config/utils.ts'
 
@@ -109,7 +109,7 @@ const AudioPlayer = ({ isFinished }: Props) => {
 						{!isFinished && showHelp && (
 							<div className='player-help'>
 								<p>{t('game.help')}</p>
-								<ArrowDown />
+								<ArrowDownIcon />
 							</div>
 						)}
 						<ProgressBar

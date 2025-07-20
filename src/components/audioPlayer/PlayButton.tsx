@@ -1,6 +1,6 @@
 import Lottie from 'lottie-react'
 import './PlayButton.css'
-import Play from '../../img/play.svg?react'
+import PlayIcon from '../../img/play.svg?react'
 import playAnimation from '../../img/playAnimation.json'
 
 type Props = {
@@ -26,7 +26,7 @@ const PlayButton = ({ startMusic, stopMusic, isPlaying }: Props) => {
                     animationData={playAnimation}
                     loop
                 />
-            ) : <Play className='play-button-icon play-button-icon-play' />}
+            ) : <PlayIcon className='play-button-icon play-button-icon-play' />}
         </button>
 	)
 }

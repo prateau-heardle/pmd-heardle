@@ -13,7 +13,7 @@
 
 .attempt--skipped {
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
     color: #444444;
 }
 

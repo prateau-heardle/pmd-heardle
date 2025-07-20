@@ -10,6 +10,43 @@
 .search-bar {
     height: 50px;
     width: 100%;
+    padding: 12px 32px;
+
+    background: #121212;
+    color: #ffffff;
+    font-size: 1rem;
+    border: 1px solid #888888;
+}
+
+.search-bar:focus {
+    border-color: #1d7e05;
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    left: 24px;
+    top: 15px;
+    height: 20px;
+    width: 20px;
+
+    pointer-events: none;
+}
+
+.search-reset-icon {
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    height: 28px;
+    width: 28px;
+    padding: 3px;
+
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.search-reset-icon:hover {
+    background: #444444;
 }
 
 .option-list {
