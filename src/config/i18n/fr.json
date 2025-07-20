@@ -3,8 +3,9 @@
   "game": {
     "help": "Augmentez le volume et appuyez pour lancer la musique !",
     "search": {
-      "submit": "Soumettre",
       "placeholder": "Recherchez le titre / le jeu",
+      "noResult": "Aucun résultat trouvé... Vous pouvez consulter la liste de toutes les musiques disponibles en cliquant sur le bouton en haut à droite de l'écran",
+      "submit": "Soumettre",
       "skip": "Passer"
     },
     "attempts": {

@@ -54,6 +54,13 @@
     border: 1px solid #444444;
     position: absolute;
     bottom: 50px;
+    background: #121212;
+}
+
+.no-result-option {
+    width: 100%;
+    padding: 8px 12px;
+    color: #888888;
 }
 
 .search-buttons {

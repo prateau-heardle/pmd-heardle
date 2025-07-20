@@ -69,18 +69,20 @@ const Search = () => {
 	return (
 		<>
 			<div className='search'>
-				{showOptions && search && (
+				{showOptions && debouncedSearch && (
 					<ul className='option-list' role='listbox'>
-						{searchResults.map((music) => (
-							<Option
-								music={music}
-								onSelect={() => {
-									setSelectedMusic(music)
-									setSearch(music.name[language])
-									inputRef.current?.blur()
-								}}
-							/>
-						))}
+						{searchResults.length ? (
+							searchResults.map((music) => (
+								<Option
+									music={music}
+									onSelect={() => {
+										setSelectedMusic(music)
+										setSearch(music.name[language])
+										inputRef.current?.blur()
+									}}
+								/>
+							))
+						) : <div className='no-result-option'>{t('game.search.noResult')}</div>}
 					</ul>
 				)}
 				<SearchIcon className='search-icon' />

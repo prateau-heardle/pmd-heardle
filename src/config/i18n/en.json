@@ -3,8 +3,9 @@
   "game": {
     "help": "Turn up the volume and tap to start the track!",
     "search": {
-      "submit": "Submit",
       "placeholder": "Know it? Search for the title / the game",
+      "noResult": "No result found... You can use the button at the top right of the screen to see the list of all available tracks",
+      "submit": "Submit",
       "skip": "Skip"
     },
     "attempts": {
