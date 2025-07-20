@@ -1,0 +1,19 @@
+.search {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    padding-right: 16px;
+    padding-left: 16px;
+    position: relative;
+}
+
+.search-bar {
+    height: 50px;
+}
+
+.option-list {
+    width: calc(100% - 32px);
+    border: 1px solid #444444;
+    position: absolute;
+    bottom: 50px;
+}

@@ -1,8 +1,10 @@
 import React from 'react'
 import Fuse from 'fuse.js'
-import { useHeardleContext } from '../context/HeardleContext'
 import { useTranslation } from 'react-i18next'
-import type { MusicElement } from '../config/types'
+import { useHeardleContext } from '../../context/HeardleContext'
+import type { MusicElement } from '../../config/types'
+import Option from './Option'
+import './Search.css'
 
 const FUSE_BASE_OPTIONS = {
 	ignoreDiacritics: true,
@@ -14,6 +16,7 @@ const Search = () => {
 	const { allMusics, guessMusic } = useHeardleContext()
 
 	const [search, setSearch] = React.useState<string>()
+	const [showOptions, setShowOptions] = React.useState<boolean>(false)
 	const [selectedMusic, setSelectedMusic] = React.useState<MusicElement | undefined>()
 
 	const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -35,28 +38,29 @@ const Search = () => {
 			.map(e => e.item)
 	)
 
-	const buildResultOption = (music: MusicElement) => ( // TODO create element for this
-		<div
-			key={music.id}
-			onClick={() => {
-					setSelectedMusic(music)
-					setSearch(music.name[language])
-				}
-			}
-		>
-			{music.name[language]} - {music.category[language]}
-		</div>
-	)
-
 	return (
-		<div>
+		<div className='search'>
+			{showOptions && search && (
+				<ul className='option-list'>
+					{getSearchResults().map((music) => (
+						<Option
+							music={music}
+							onSelect={() => {
+								setSelectedMusic(music)
+								setSearch(music.name[language])
+							}}
+						/>
+					))}
+				</ul>
+			)}
 			<input
+				className='search-bar'
 				onChange={handleChange}
-				onFocus={console.log}
+				onFocus={() => setShowOptions(true)}
+				onBlur={() => setShowOptions(false)}
 				value={search}
 				placeholder={t('game.search.placeholder')}
 			/>
-			{search && getSearchResults().map(buildResultOption)}
 			<button onClick={() => guessMusic(undefined)}>{t('game.search.skip')}</button>
 			<button onClick={() => guessMusic(selectedMusic?.id)} disabled={!selectedMusic}>{t('game.search.submit')}</button>
 		</div>

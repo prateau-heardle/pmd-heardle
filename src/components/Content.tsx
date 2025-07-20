@@ -3,7 +3,7 @@ import Share from './Share.tsx'
 import TimerToNext from './TimerToNext.tsx'
 import AudioPlayer from './audioPlayer/AudioPlayer.tsx'
 import AttemptList from './attempts/AttemptList.tsx'
-import Search from './Search.tsx'
+import Search from './search/Search.tsx'
 import { useHeardleContext } from '../context/HeardleContext.tsx'
 import { HEARDLE_SPLITS } from '../config/consts.ts'
 
