@@ -9,6 +9,7 @@ import Button, { Variant } from '../commons/Button'
 import SearchIcon from '../../img/search.svg?react'
 import CrossIcon from '../../img/cross.svg?react'
 import { useDebounce } from '../../config/useDebounce'
+import { HEARDLE_SPLITS } from '../../config/consts'
 
 const FUSE_BASE_OPTIONS = {
 	ignoreDiacritics: true,
@@ -17,7 +18,7 @@ const FUSE_BASE_OPTIONS = {
 
 const Search = () => {
 	const { i18n : { language }, t } = useTranslation()
-	const { allMusics, guessMusic } = useHeardleContext()
+	const { allMusics, guessMusic, gameState } = useHeardleContext()
 
 	const [search, setSearch] = React.useState<string>()
 	const [searchResults, setSearchResults] = React.useState<MusicElement[]>([])
@@ -55,6 +56,7 @@ const Search = () => {
 			fuse.search(debouncedSearch || '')
 				.slice(0, 10)
 				.map(e => e.item)
+				.reverse()
 		)
 	}, [debouncedSearch, fuse])
 
@@ -65,6 +67,10 @@ const Search = () => {
 			inputRef.current?.focus()
 		}
 	}
+
+	const secondsNext = HEARDLE_SPLITS.length > gameState.attempts.length
+		? HEARDLE_SPLITS[gameState.attempts.length + 1] - HEARDLE_SPLITS[gameState.attempts.length]
+		: undefined
 
 	return (
 		<>
@@ -103,7 +109,7 @@ const Search = () => {
 			</div>
 			<div className='search-buttons'>
 				<Button
-					label={t('game.search.skip')}
+					label={secondsNext ? t('game.search.skipWithSeconds', { secondNb: secondsNext }) : t('game.search.skip')}
 					onClick={() => guessMusic(undefined)}
 					variant={Variant.Secondary}
 				/>
