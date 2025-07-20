@@ -5,7 +5,7 @@ export const sortMusicById = (music1: MusicElement, music2: MusicElement): numbe
 
 export const getToday = (): string => {
 	const today = new Date()
-    return `${today.getFullYear()}-${today.getMonth()}-${today.getDay()}`
+    return `${today.getFullYear()}-${today.getMonth()}-${today.getDate()}`
 }
 
 const getGameState = (): GameState[] => {
