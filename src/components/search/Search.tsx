@@ -8,6 +8,7 @@ import './Search.css'
 import Button, { Variant } from '../commons/Button'
 import SearchIcon from '../../img/search.svg?react'
 import CrossIcon from '../../img/cross.svg?react'
+import { useDebounce } from '../../config/useDebounce'
 
 const FUSE_BASE_OPTIONS = {
 	ignoreDiacritics: true,
@@ -19,9 +20,12 @@ const Search = () => {
 	const { allMusics, guessMusic } = useHeardleContext()
 
 	const [search, setSearch] = React.useState<string>()
+	const [searchResults, setSearchResults] = React.useState<MusicElement[]>([])
 	const [showOptions, setShowOptions] = React.useState<boolean>(false)
 	const [selectedMusic, setSelectedMusic] = React.useState<MusicElement | undefined>()
 	const inputRef = React.useRef<HTMLInputElement>(null)
+
+	const debouncedSearch = useDebounce(search)
 
 	const resetInput = () => {
 		setSearch(undefined)
@@ -36,19 +40,23 @@ const Search = () => {
 		setSelectedMusic(undefined)
 	}
 	
-	const fuse = new Fuse(allMusics, {
-		...FUSE_BASE_OPTIONS,
-		keys: [
-			`name.${language}`,
-			`category.${language}`
-		]
-	})
+	const fuse = React.useMemo(() => (
+		new Fuse(allMusics, {
+			...FUSE_BASE_OPTIONS,
+			keys: [
+				`name.${language}`,
+				`category.${language}`
+			]
+		})
+	), [allMusics, language])
 
-	const getSearchResults = (): MusicElement[] => (
-		fuse.search(search || '')
-			.slice(0, 10)
-			.map(e => e.item)
-	)
+	React.useEffect(() => {
+		setSearchResults(
+			fuse.search(debouncedSearch || '')
+				.slice(0, 10)
+				.map(e => e.item)
+		)
+	}, [debouncedSearch, fuse])
 
 	const onSubmit = () => {
 		if (selectedMusic) {
@@ -63,7 +71,7 @@ const Search = () => {
 			<div className='search'>
 				{showOptions && search && (
 					<ul className='option-list' role='listbox'>
-						{getSearchResults().map((music) => (
+						{searchResults.map((music) => (
 							<Option
 								music={music}
 								onSelect={() => {
