@@ -1,0 +1,25 @@
+.button {
+    padding: 8px;
+
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.button--primary {
+    background-color: #1d7e05;
+}
+
+.button--primary:hover {
+    background-color: #3d9e25;
+}
+
+.button--secondary {
+    background-color: #444444;
+}
+
+.button--secondary:hover {
+    background-color: #666666;
+}
