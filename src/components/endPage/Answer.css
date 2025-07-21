@@ -1,0 +1,55 @@
+.soundcloud-box-container {
+    width: 100%;
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.soundcloud-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    color: #ffffff;
+    text-decoration: none;
+    background: #444444;
+}
+
+.soundcloud-box:hover {
+    background: #666666;
+}
+
+.soundcloud-box.soundcloud-box--win {
+    background: #1d7e05;
+}
+
+.soundcloud-box.soundcloud-box--win:hover {
+    background: #3d9e25;
+}
+
+.soundcloud-cover {
+    height: 56px;
+    width: 56px;
+    flex-shrink: 0;
+}
+
+.soundcloud-title {
+    flex: 1;
+}
+
+.soundcloud-music-category {
+    font-size: 1rem;
+}
+
+.soundcloud-music-name {
+    font-size: 0.875rem;
+}
+
+.soundcloud-icon {
+    display: flex;
+    gap: 2px;
+    flex-shrink: 0;
+    height: 16px;
+}

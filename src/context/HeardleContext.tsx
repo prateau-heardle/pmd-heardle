@@ -8,7 +8,9 @@ export interface HeardleContextProps {
 	currentMusic: MusicElement,
 	allMusics: MusicElement[],
 	gameState: GameState,
-	guessMusic: (musicId?: number) => void
+	guessMusic: (musicId?: number) => void,
+	musicImage?: string,
+	setMusicImage: (image: string) => void
 }
 
 const Context = React.createContext<HeardleContextProps>({} as HeardleContextProps)
@@ -17,6 +19,7 @@ export const useHeardleContext = () => React.useContext(Context)
 
 const HeardleContext = ({ children }: React.PropsWithChildren) => {
 	const [gameState, setGameState] = React.useState<GameState>()
+	const [musicImage, setMusicImage] = React.useState<string>()
 
 	const today = getToday()
 	const allMusics = (musics as MusicElement[]).sort(sortMusicById)
@@ -49,7 +52,9 @@ const HeardleContext = ({ children }: React.PropsWithChildren) => {
 				currentMusic,
 				allMusics,
 				gameState,
-				guessMusic
+				guessMusic,
+				musicImage,
+				setMusicImage
 			}}
 		>
 			{children}

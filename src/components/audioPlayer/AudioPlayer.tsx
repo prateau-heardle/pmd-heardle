@@ -14,7 +14,7 @@ type Props = {
 
 const AudioPlayer = ({ isFinished }: Props) => {
 	const { t } = useTranslation()
-	const { currentMusic, gameState } = useHeardleContext()
+	const { currentMusic, gameState, setMusicImage } = useHeardleContext()
 
 	const [showHelp, setShowHelp] = React.useState<boolean>(true)
 	const [isScReady, setIsScReady] = React.useState<boolean>(false)
@@ -55,7 +55,6 @@ const AudioPlayer = ({ isFinished }: Props) => {
 		scWidget.bind(window.SC.Widget.Events.PLAY_PROGRESS, onPlayProgress)
 		scWidget.bind(window.SC.Widget.Events.FINISH, onFinish)
 		scWidget.bind(window.SC.Widget.Events.ERROR, onError)
-
 	}, [])
 
 	React.useEffect(() => {
@@ -63,7 +62,12 @@ const AudioPlayer = ({ isFinished }: Props) => {
 			const scWidget = window.SC.Widget(scIframe.current)
 
 			// init
-			scWidget.getDuration((duration : number) => { setSoundDuration(duration) })
+			scWidget.getDuration((duration: number) => {
+				setSoundDuration(duration)
+			})
+			scWidget.getCurrentSound((sound: any) => {
+				setMusicImage(sound.artwork_url)
+			})
 		}
 	}, [isScReady])
 
