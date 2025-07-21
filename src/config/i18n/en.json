@@ -1,5 +1,6 @@
 {
-  "title": "React Heardle Project",
+  "heardleName": "React",
+  "title": "$t(heardleName) Heardle",
   "game": {
     "help": "Turn up the volume and tap to start the track!",
     "search": {
@@ -16,5 +17,8 @@
       "error": "There was an error loading the player. Please reload and try again.\n You can contact the site administrator if the problem persists.",
       "loading": "Loading player"
     }
+  },
+  "endPage": {
+    "timer": "Next $t(heardleName) song in:"
   }
 }

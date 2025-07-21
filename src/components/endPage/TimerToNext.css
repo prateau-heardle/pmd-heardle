@@ -1,0 +1,21 @@
+.timer {
+    width: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.timer-text {
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 0.875rem;
+    color: #888888;
+}
+
+.timer-clock {
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.25rem;
+    letter-spacing: 0.2rem;
+}

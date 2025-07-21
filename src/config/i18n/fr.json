@@ -1,5 +1,6 @@
 {
-  "title": "Projet React Heardle",
+  "heardleName": "React",
+  "title": "$t(heardleName) Heardle",
   "game": {
     "help": "Augmentez le volume et appuyez pour lancer la musique !",
     "search": {
@@ -16,5 +17,8 @@
       "error": "Une erreur s'est produite lors du chargement de la musique. Veuillez recharger et réessayer.\n Vous pouvez contactez l'administrateur de ce site si le problème persiste.",
       "loading": "Chargement ..."
     }
+  },
+  "endPage": {
+    "timer": "Prochaine Musique de $t(heardleName) dans :"
   }
 }
