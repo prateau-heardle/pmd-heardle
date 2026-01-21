@@ -2,11 +2,11 @@ import { useTranslation } from 'react-i18next'
 import './Header.css'
 import { Locales } from '../../config/i18n/i18n.ts'
 import HeartIcon from '../../img/heart.svg?react'
-import InfoIcon from '../../img/info.svg?react'
 import ListIcon from '../../img/list.svg?react'
 import QuestionIcon from '../../img/question.svg?react'
 import StatsIcon from '../../img/stats.svg?react'
 import FlagFrIcon from '../../img/flagFr.svg?react'
+import ModaleInfos from './ModaleInfo.tsx'
 
 const Header = () => {
 	const { i18n, t } = useTranslation()
@@ -19,9 +19,7 @@ const Header = () => {
 	return (
 		<header className='header'>
 			<div className='header-content'>
-				<div className='header-icon-container'>
-					<InfoIcon className='header-icon' />
-				</div>
+				<ModaleInfos />
 				<div className='header-icon-container'>
 					<HeartIcon className='header-icon' />
 				</div>

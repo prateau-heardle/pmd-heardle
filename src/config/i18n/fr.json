@@ -1,6 +1,13 @@
 {
   "heardleName": "React",
   "title": "$t(heardleName) Heardle",
+  "header": {
+    "infos": {
+      "title": "À propos",
+      "text": "<p>Un jeu Heardle réalisé avec React.</p><p>Pour créer votre propre Heardle, allez voir <a href=\"https://github.com/prateau/heardle-react\">ici</a></p>",
+      "subText": "Basé sur <a href=\"https://github.com/prateau/heardle-react\">heardle react</a>"
+    }
+  },
   "game": {
     "help": "Augmentez le volume et appuyez pour lancer la musique !",
     "search": {
