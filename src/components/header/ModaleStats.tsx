@@ -7,31 +7,43 @@ import type { GameState } from '../../config/types.ts'
 import { getGameState } from '../../config/utils.ts'
 import { useHeardleContext } from '../../context/HeardleContext.tsx'
 import { HEARDLE_SPLITS } from '../../config/consts.ts'
+import { Bar } from 'react-chartjs-2'
 
 type Streak = {
 	lastId: number,
 	length: number
 }
 
-const getStreaks = (history: GameState[]): Streak[] => {
-	return history
+const getStreaks = (history: GameState[]): Streak[] => (
+	history
 		.filter(state => state.attempts.includes(state.response))
 		.sort((a, b) => a.dateId - b.dateId)
-		.reduce((allStreaks, current) => {
-			const currentStreak = allStreaks.find(streak => streak.lastId + 1 === current.dateId)
+		.reduce((allStreaks, state) => {
+			const currentStreak = allStreaks.find(streak => streak.lastId + 1 === state.dateId)
 			if (currentStreak) {
 				return [
 					...allStreaks.filter(streak => streak !== currentStreak),
-					{ lastId: current.dateId, length: currentStreak.length + 1 }
+					{ lastId: state.dateId, length: currentStreak.length + 1 }
 				]
 			} else {
 				return [
 					...allStreaks,
-					{ lastId: current.dateId, length: 1 }
+					{ lastId: state.dateId, length: 1 }
 				]
 			}
 		}, [] as Streak[])
-}
+)
+
+const getDataFromHistory = (history: GameState[]): number[] => (
+	history.reduce((result, state) => {
+		if (state.attempts.includes(state.response)) {
+			result[state.attempts.length - 1] += 1
+		} else {
+			result[HEARDLE_SPLITS.length] += 1
+		}
+		return result
+	}, Array(HEARDLE_SPLITS.length).fill(0))
+)
 
 const ModaleStats = () => {
 	const { t } = useTranslation()
@@ -57,6 +69,14 @@ const ModaleStats = () => {
 	const currentStreak = allStreaks.find(streak => streak.lastId === (isTodayFinished ? gameState.dateId : gameState.dateId - 1))?.length || 0
 	const maxStreak = Math.max(0, ...allStreaks.map(streak => streak.length))
 
+	const data = {
+		labels: [...Array.from({ length: HEARDLE_SPLITS.length - 1 }, (_, i) => i + 1), 'X'],
+		datasets: [{
+			data: getDataFromHistory(currentHistory),
+			backgroundColor: [...Array(HEARDLE_SPLITS.length - 1).fill('#1d7e05'), '#ff0000']
+		}]
+	}
+
 	return (<>
 		<div className='header-icon-container' onClick={() => setIsOpen(true)}>
 			<StatsIcon className='header-icon' />
@@ -67,6 +87,23 @@ const ModaleStats = () => {
 			onClose={() => setIsOpen(false)}
 		>
 			<div className='header-stats-container'>
+				<Bar
+					data={data}
+					options={{
+						plugins: {
+							legend: {
+								display: false
+							}
+						},
+						scales: {
+							y: {
+								ticks: {
+									precision: 0
+								}
+							}
+						}
+					}}
+				/>
 				<div className='header-stats-item-container'>
 					<div className='header-stats-item'>
 						<div className='header-stats-item-value'>{gamePlayed}</div>
