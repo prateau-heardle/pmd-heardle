@@ -1,5 +1,25 @@
+.header-stats-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.header-stats-item-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+}
+
 .header-stats-item {
     display: flex;
-    gap: 4px;
-    justify-content: center;
+    flex-direction: column;
+    color: #888888;
+    align-items: center;
+    text-align: center;
+}
+
+.header-stats-item-value {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ffffff;
 }

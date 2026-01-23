@@ -19,6 +19,14 @@
       "list": "Vous pouvez voir la liste des musiques en cliquant sur le bouton en haut à droite.",
       "play": "Jouer"
     },
+    "stats": {
+      "title": "Statistiques",
+      "played": "Parties jouées",
+      "won": "Parties gagnée",
+      "winRate": "Taux de réussite",
+      "currentStreak": "Série actuelle",
+      "maxStreak": "Série maximum"
+    },
     "list": {
       "title": "Liste des musiques"
     },

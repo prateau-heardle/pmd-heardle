@@ -19,6 +19,14 @@
       "list": "You can use the top right button to see the list of tracks.",
       "play": "Play"
     },
+    "stats": {
+      "title": "Statistics",
+      "played": "Times played",
+      "won": "Times won",
+      "winRate": "Win rate",
+      "currentStreak": "Current streak",
+      "maxStreak": "Max streak"
+    },
     "list": {
       "title": "Music list"
     },

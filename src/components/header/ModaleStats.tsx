@@ -66,11 +66,32 @@ const ModaleStats = () => {
 			isOpen={isOpen}
 			onClose={() => setIsOpen(false)}
 		>
-			{gamePlayed}
-			{gameWon}
-			{winRate}
-			{currentStreak}
-			{maxStreak}
+			<div className='header-stats-container'>
+				<div className='header-stats-item-container'>
+					<div className='header-stats-item'>
+						<div className='header-stats-item-value'>{gamePlayed}</div>
+						{t('header.stats.played')}
+					</div>
+					<div className='header-stats-item'>
+						<div className='header-stats-item-value'>{gameWon}</div>
+						{t('header.stats.won')}
+					</div>
+					<div className='header-stats-item'>
+						<div className='header-stats-item-value'>{winRate}%</div>
+						{t('header.stats.winRate')}
+					</div>
+				</div>
+				<div className='header-stats-item-container'>
+					<div className='header-stats-item'>
+						<div className='header-stats-item-value'>{currentStreak}</div>
+						{t('header.stats.currentStreak')}
+					</div>
+					<div className='header-stats-item'>
+						<div className='header-stats-item-value'>{maxStreak}</div>
+						{t('header.stats.maxStreak')}
+					</div>
+				</div>
+			</div>
 		</Modale>
 	</>)
 }
