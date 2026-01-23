@@ -13,7 +13,7 @@
     },
     "help": {
       "title": "How to play",
-      "listen": "Listen to the intro, then find the correct Pokémon Mystery Dungeon song in the list.",
+      "listen": "Listen to the intro, then find the correct $t(heardleName) song in the list.",
       "progress": "Skipped or incorrect attempts unlock more of the intro.",
       "win": "Answer in as few tries as possible and share your score!",
       "list": "You can use the top right button to see the list of tracks.",
@@ -46,14 +46,14 @@
   "endPage": {
     "timer": "Next $t(heardleName) song in:",
     "lose": "You didn't get today's $t(heardleName) music. Better luck Tomorrow...",
-    "win_one": "You got today's Pokémon Mystery Dungeon music within {{count}} second.",
-    "win_other": "You got today's Pokémon Mystery Dungeon music within {{count}} seconds.",
+    "win_one": "You got today's $t(heardleName) music within {{count}} second.",
+    "win_other": "You got today's $t(heardleName) music within {{count}} seconds.",
     "share": "Share",
     "copied": "Copied to Clipboard!",
     "message": {
       "title": "$t(heardleName) Heardle",
-      "win_one": "You got today's Pokémon Mystery Dungeon music within {{count}} second.",
-      "win_other": "You got today's Pokémon Mystery Dungeon music within {{count}} seconds.",
+      "win_one": "You got today's $t(heardleName) music within {{count}} second.",
+      "win_other": "You got today's $t(heardleName) music within {{count}} seconds.",
       "lose": "You didn't get today's $t(heardleName) music.",
       "link": "https://github.com/prateau/heardle-react"
     }

@@ -13,7 +13,7 @@
     },
     "help": {
       "title": "Comment jouer",
-      "listen": "Écoutez l'intro, puis trouvez la bonne musique Pokémon Donjon Mystère dans la liste.",
+      "listen": "Écoutez l'intro, puis trouvez la bonne musique $t(heardleName) dans la liste.",
       "progress": "Les tentatives passées ou incorrectes débloquent une plus grande partie de l'intro.",
       "win": "Répondez en aussi peu d'essais que possible et partagez votre score !",
       "list": "Vous pouvez voir la liste des musiques en cliquant sur le bouton en haut à droite.",
@@ -46,14 +46,14 @@
   "endPage": {
     "timer": "Prochaine Musique de $t(heardleName) dans :",
     "lose": "Vous n'avez pas trouvé la musique $t(heardleName) d'aujourd'hui. Réessayez demain...",
-    "win_one": "Vous avez trouvé la musique Pokémon Donjon Mystère d'aujourd'hui en {{count}} seconde.",
-    "win_other": "Vous avez trouvé la musique Pokémon Donjon Mystère d'aujourd'hui en {{count}} secondes.",
+    "win_one": "Vous avez trouvé la musique $t(heardleName) d'aujourd'hui en {{count}} seconde.",
+    "win_other": "Vous avez trouvé la musique $t(heardleName) d'aujourd'hui en {{count}} secondes.",
     "share": "Partager",
     "copied": "Copié dans le presse papier !",
     "message": {
       "title": "$t(heardleName) Heardle du {{date}}",
-      "win_one": "Vous avez trouvé la musique Pokémon Donjon Mystère d'aujourd'hui en {{count}} seconde.",
-      "win_other": "Vous avez trouvé la musique Pokémon Donjon Mystère d'aujourd'hui en {{count}} secondes.",
+      "win_one": "Vous avez trouvé la musique $t(heardleName) d'aujourd'hui en {{count}} seconde.",
+      "win_other": "Vous avez trouvé la musique $t(heardleName) d'aujourd'hui en {{count}} secondes.",
       "lose": "Vous n'avez pas trouvé la musique $t(heardleName) d'aujourd'hui",
       "link": "https://github.com/prateau/heardle-react"
     }
