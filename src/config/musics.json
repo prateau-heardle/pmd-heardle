@@ -6,7 +6,7 @@
       "en": "Pokemon Rescue Team Theme",
       "fr": "Pokémon Équipe de secours – Thème"
     },
-    "category": 0
+    "categoryId": 0
   },
   {
     "id": 1,
@@ -15,7 +15,7 @@
       "en": "Top Menu",
       "fr": "Menu principal"
     },
-    "category": 0
+    "categoryId": 0
   },
   {
     "id": 2,
@@ -24,7 +24,7 @@
       "en": "In a Dream",
       "fr": "Dans un rêve"
     },
-    "category": 0
+    "categoryId": 0
   },
   {
     "id": 3,
@@ -33,6 +33,6 @@
       "en": "Top Menu",
       "fr" : "Menu principal "
     },
-    "category": 1
+    "categoryId": 1
   } 
 ]

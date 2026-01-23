@@ -4,10 +4,10 @@ export type MusicElementJson = {
 	name: {
 		[langKey: string]: string
 	},
-	category: number
+	categoryId: number
 }
 
-export type CategoryJson = {
+export type Category = {
 	id: number,
 	name: {
 		[langKey: string]: string
@@ -20,6 +20,7 @@ export type MusicElement = {
 	name: {
 		[langKey: string]: string
 	},
+	categoryId: number,
 	category: {
 		[langKey: string]: string
 	}

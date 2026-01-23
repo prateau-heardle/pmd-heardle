@@ -19,6 +19,9 @@
       "list": "You can use the top right button to see the list of tracks.",
       "play": "Play"
     },
+    "list": {
+      "title": "Music list"
+    },
     "language": {
       "title": "Language"
     }

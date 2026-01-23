@@ -13,7 +13,7 @@ import { getShowHelp, setShowHelp } from '../../config/utils.ts'
 const ModaleHelp = () => {
 	const { t } = useTranslation()
 
-	const [isOpen, setIsOpen] = React.useState(false) // TODO open la première fois
+	const [isOpen, setIsOpen] = React.useState(false)
 
 	React.useEffect(() => {
 		const showHelp = getShowHelp()

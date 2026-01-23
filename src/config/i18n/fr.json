@@ -19,6 +19,9 @@
       "list": "Vous pouvez voir la liste des musiques en cliquant sur le bouton en haut à droite.",
       "play": "Jouer"
     },
+    "list": {
+      "title": "Liste des musiques"
+    },
     "language": {
       "title": "Langues"
     }

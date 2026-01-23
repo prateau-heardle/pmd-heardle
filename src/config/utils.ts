@@ -1,15 +1,17 @@
 import { LocalStorageKeys } from './consts'
-import type { CategoryJson, GameState, MusicElement, MusicElementJson } from './types'
+import type { Category, GameState, MusicElement, MusicElementJson } from './types'
 
-export const mapToMusic = (music: MusicElementJson, categories: CategoryJson[]): MusicElement => {
-    const category = categories.find(cat => cat.id === music.category)!.name
+export const mapToMusic = (music: MusicElementJson, categories: Category[]): MusicElement => {
+    const category = categories.find(cat => cat.id === music.categoryId)!.name
     return {
         ...music,
         category
     }
 }
 
-export const sortMusicById = (music1: MusicElement, music2: MusicElement): number => music2.id - music1.id
+export const sortMusicById = (music1: MusicElement, music2: MusicElement): number => music1.id - music2.id
+
+export const sortCategoryById = (category1: Category, category2: Category): number => category1.id - category2.id
 
 export const getToday = (): string => {
 	const today = new Date()

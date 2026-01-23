@@ -1,0 +1,17 @@
+.header-list-category {
+    margin-bottom: 8px;
+}
+
+.header-list-container {
+    padding-left: 24px;
+    margin-bottom: 8px;
+}
+
+.header-list-item a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header-list-item a:hover {
+    text-decoration: underline;
+}
