@@ -4,6 +4,7 @@ import categories from '../config/categories.json'
 import type { Category, GameState, MusicElement, MusicElementJson } from '../config/types.ts'
 import { getTodaySong } from './seededRng.ts'
 import { getGameStateDay, getTodayId, mapToMusic, saveGameState, sortCategoryById, sortMusicById } from '../config/utils.ts'
+import { ROUTES, useRoute } from '../config/router.ts'
 
 export interface HeardleContextProps {
 	currentMusic: MusicElement,
@@ -20,8 +21,14 @@ const Context = React.createContext<HeardleContextProps>({} as HeardleContextPro
 export const useHeardleContext = () => React.useContext(Context)
 
 const HeardleContext = ({ children }: React.PropsWithChildren) => {
+	const route = useRoute()
 	const [gameState, setGameState] = React.useState<GameState>()
 	const [musicImage, setMusicImage] = React.useState<string>()
+
+	const isInfinite = route.name === ROUTES.INFINITE
+
+	// TODO infinite mode
+	console.log(isInfinite)
 
 	const todayId = getTodayId()
 	const allCategories = (categories as Category[])
