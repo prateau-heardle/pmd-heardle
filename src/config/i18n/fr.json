@@ -1,6 +1,7 @@
 {
   "heardleName": "React",
   "title": "$t(heardleName) Heardle",
+  "infiniteTitle": "$t(heardleName) Heardle Infini",
   "header": {
     "infos": {
       "title": "À propos",

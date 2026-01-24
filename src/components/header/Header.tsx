@@ -6,9 +6,11 @@ import ModaleHelp from './ModaleHelp.tsx'
 import ModaleLanguage from './ModaleLanguage.tsx'
 import ModaleList from './ModaleList.tsx'
 import ModaleStats from './ModaleStats.tsx'
+import { useHeardleContext } from '../../context/HeardleContext.tsx'
 
 const Header = () => {
 	const { t } = useTranslation()
+	const { isInfinite } = useHeardleContext()
 
 	return (
 		<header className='header'>
@@ -16,7 +18,7 @@ const Header = () => {
 				<ModaleInfos />
 				<ModaleSupport />
 				<ModaleHelp />
-				<h1 className='header-title'>{t('title')}</h1>
+				<h1 className='header-title'>{isInfinite ? t('infiniteTitle') : t('title')}</h1>
 				<ModaleStats />
 				<ModaleList />
 				<ModaleLanguage />
