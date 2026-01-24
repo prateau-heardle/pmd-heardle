@@ -27,5 +27,5 @@ const shuffleArray = <T> (array: T[], songNumber: number): T[] => {
 }
 
 export const getTodaySong = <T> (array: T[], todayId: number): T => {
-	return shuffleArray(array, todayId)[todayId % array.length]
+	return shuffleArray([...array], todayId)[todayId % array.length]
 }

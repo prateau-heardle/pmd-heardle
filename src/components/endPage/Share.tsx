@@ -5,6 +5,7 @@ import './Share.css'
 import { useHeardleContext } from '../../context/HeardleContext'
 import { HEARDLE_SPLITS } from '../../config/consts'
 import Button, { Variant } from '../commons/Button'
+import { isGameWon } from '../../config/utils'
 
 const COPIED_MESSAGE_TIMEOUT = 2000
 
@@ -14,7 +15,7 @@ const Share = () => {
 
 	const [showCopied, setShowCopied] = React.useState(false)
 
-	const isWon = gameState.attempts.includes(currentMusic.id)
+	const isWon = isGameWon(gameState)
 
 	const getRecapClassname = (index: number): string => {
 		if (index > gameState.attempts.length - 1) {

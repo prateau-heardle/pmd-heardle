@@ -3,11 +3,10 @@ import { useTranslation } from 'react-i18next'
 import './ModaleList.css'
 import Modale from '../commons/Modale.tsx'
 import ListIcon from '../../img/list.svg?react'
-import { useHeardleContext } from '../../context/HeardleContext.tsx'
+import { ALL_CATEGORIES, ALL_MUSICS } from '../../config/consts.ts'
 
 const ModaleList = () => {
 	const { i18n : { language }, t } = useTranslation()
-	const { allMusics, allCategories } = useHeardleContext()
 
 	const [isOpen, setIsOpen] = React.useState(false)
 
@@ -20,11 +19,11 @@ const ModaleList = () => {
 			isOpen={isOpen}
 			onClose={() => setIsOpen(false)}
 		>
-			{allCategories.map((category) => (
+			{ALL_CATEGORIES.map((category) => (
 				<>
 					<h3 className='header-list-category'>{category.name[language]}</h3>
 					<ul className='header-list-container'>
-						{allMusics
+						{ALL_MUSICS
 							.filter((music) => music.categoryId === category.id)
 							.map(m => (
 								<li className='header-list-item'>

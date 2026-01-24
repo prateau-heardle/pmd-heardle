@@ -1,17 +1,16 @@
 import React from 'react'
-import musics from '../config/musics.json'
-import categories from '../config/categories.json'
-import type { Category, GameState, MusicElement, MusicElementJson } from '../config/types.ts'
+import type { GameState, MusicElement } from '../config/types.ts'
 import { getTodaySong } from './seededRng.ts'
-import { getGameStateDay, getTodayId, mapToMusic, saveGameState, sortCategoryById, sortMusicById } from '../config/utils.ts'
+import { getGameStateDay, getInfiniteId, getTodayId, saveGameState } from '../config/utils.ts'
 import { ROUTES, useRoute } from '../config/router.ts'
+import { ALL_MUSICS } from '../config/consts.ts'
 
 export interface HeardleContextProps {
 	currentMusic: MusicElement,
-	allMusics: MusicElement[],
-	allCategories: Category[],
 	gameState: GameState,
 	guessMusic: (musicId?: number) => void,
+	isInfinite: boolean,
+	nextMusic: () => void,
 	musicImage?: string,
 	setMusicImage: (image: string) => void
 }
@@ -27,43 +26,39 @@ const HeardleContext = ({ children }: React.PropsWithChildren) => {
 
 	const isInfinite = route.name === ROUTES.INFINITE
 
-	// TODO infinite mode
-	console.log(isInfinite)
+	const initGameState = React.useCallback(() => {
+		const todayId = isInfinite ? getInfiniteId() : getTodayId()
+		const currentMusic = getTodaySong(ALL_MUSICS, todayId)
+		setGameState(getGameStateDay(isInfinite, todayId) || { dateId: todayId, response: currentMusic.id, attempts: [] })
 
-	const todayId = getTodayId()
-	const allCategories = (categories as Category[])
-		.sort(sortCategoryById)
-	const allMusics = (musics as MusicElementJson[])
-		.map((music) => mapToMusic(music, allCategories))
-		.sort(sortMusicById)
-	const currentMusic = getTodaySong(allMusics, todayId)
+		return todayId
+	}, [isInfinite])
 
 	React.useEffect(() => {
-		setGameState(getGameStateDay(todayId) || { dateId: todayId, response: currentMusic.id, attempts: [] })
-	}, [todayId])
-
-	React.useEffect(() => {
-		setInterval(() => {
-			if (getTodayId() !== todayId) {
+		const todayId = initGameState()
+		
+		const reload = setInterval(() => {
+			if (!isInfinite && getTodayId() !== todayId) {
 				window.location.reload()
 			}
 		}, 1000)
-	}, [])
-
-	React.useEffect(() => {
-		if (gameState != undefined && gameState.attempts.length > 0) {
-			saveGameState(gameState)
-		}
-	}, [gameState])
+		return () => clearInterval(reload)
+	}, [isInfinite])
 
 	const guessMusic = (musicId?: number) => {
-		setGameState(old => ({
-			...old!,
-			attempts: [...old!.attempts, musicId]
-		}))
+		setGameState(old => {
+			const newState = {
+				...old!,
+				attempts: [...old!.attempts, musicId]
+			}
+			saveGameState(isInfinite, newState)
+			return newState
+		})
 	}
 
-	if (!gameState) {
+	const currentMusic = ALL_MUSICS.find(m => m.id === gameState?.response)
+
+	if (!gameState || !currentMusic) {
 		return null
 	}
 
@@ -71,10 +66,10 @@ const HeardleContext = ({ children }: React.PropsWithChildren) => {
 		<Context.Provider
 			value={{
 				currentMusic,
-				allMusics,
-				allCategories,
 				gameState,
 				guessMusic,
+				isInfinite,
+				nextMusic: initGameState,
 				musicImage,
 				setMusicImage
 			}}

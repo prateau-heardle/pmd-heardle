@@ -5,12 +5,13 @@ import ArrowRightIcon from '../../img/arrowRight.svg?react'
 import SoundcloudIcon from '../../img/soundcloud.png'
 import SoundcloudShortIcon from '../../img/soundcloudShort.png'
 import './Answer.css'
+import { isGameWon } from '../../config/utils'
 
 const Answer = () => {
 	const { i18n : { language } } = useTranslation()
 	const { currentMusic, gameState, musicImage } = useHeardleContext()
 
-	const isWon = gameState.attempts.includes(currentMusic.id)
+	const isWon = isGameWon(gameState)
 
 	return (
 		<div className='soundcloud-box-container'>

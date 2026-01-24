@@ -4,7 +4,7 @@ import './ModaleStats.css'
 import Modale from '../commons/Modale.tsx'
 import StatsIcon from '../../img/stats.svg?react'
 import type { GameState } from '../../config/types.ts'
-import { getGameState } from '../../config/utils.ts'
+import { getGameState, isGameFinished } from '../../config/utils.ts'
 import { useHeardleContext } from '../../context/HeardleContext.tsx'
 import { HEARDLE_SPLITS } from '../../config/consts.ts'
 import { Bar } from 'react-chartjs-2'
@@ -47,17 +47,16 @@ const getDataFromHistory = (history: GameState[]): number[] => (
 
 const ModaleStats = () => {
 	const { t } = useTranslation()
-	const { gameState } = useHeardleContext()
+	const { gameState, isInfinite } = useHeardleContext()
 
 	const [isOpen, setIsOpen] = React.useState(false)
 	const [gameHistory, setGameHistory] = React.useState<GameState[]>([])
 
 	React.useEffect(() => {
-		setGameHistory(getGameState())
-	}, [isOpen])
+		setGameHistory(getGameState(isInfinite))
+	}, [isInfinite, isOpen])
 
-	const isTodayWon = gameState.attempts.some(musicId => musicId === gameState.response)
-	const isTodayFinished = isTodayWon || gameState.attempts.length >= HEARDLE_SPLITS.length
+	const isTodayFinished = isGameFinished(gameState)
 
 	const currentHistory = isTodayFinished ? gameHistory : gameHistory.filter(state => state.dateId !== gameState.dateId)
 

@@ -1,17 +1,5 @@
-import { LocalStorageKeys, START_DATE } from './consts'
-import type { Category, GameState, MusicElement, MusicElementJson } from './types'
-
-export const mapToMusic = (music: MusicElementJson, categories: Category[]): MusicElement => {
-    const category = categories.find(cat => cat.id === music.categoryId)!.name
-    return {
-        ...music,
-        category
-    }
-}
-
-export const sortMusicById = (music1: MusicElement, music2: MusicElement): number => music1.id - music2.id
-
-export const sortCategoryById = (category1: Category, category2: Category): number => category1.id - category2.id
+import { ALL_MUSICS, HEARDLE_SPLITS, LocalStorageKeys, START_DATE } from './consts'
+import type { GameState } from './types'
 
 export const getTodayId = (): number => {
 	const todayDate = new Date()
@@ -19,6 +7,21 @@ export const getTodayId = (): number => {
 
     const diffInMilliseconds = todayDate.getTime() - startDate.getTime()
     return Math.trunc(diffInMilliseconds / (1000 * 60 * 60 * 24))
+}
+
+export const getInfiniteId = (): number => {
+    const state = getGameState(true)
+
+    if (state.length !== 0) {
+        const currentGame = state.find(s => !isGameFinished(s))
+        if (!currentGame) {
+            return Math.max(...state.map(s => s.dateId)) + 1
+        } else {
+            return currentGame.dateId
+        }
+    } else {
+        return Math.floor(Math.random() * 1000 * ALL_MUSICS.length) 
+    }
 }
 
 export const getShowHelp = (): boolean => {
@@ -29,17 +32,25 @@ export const setShowHelp = (showHelp: boolean) => {
     window.localStorage.setItem(LocalStorageKeys.SHOW_HELP, showHelp.toString())
 }
 
-export const getGameState = (): GameState[] => {
-    return JSON.parse(window.localStorage.getItem(LocalStorageKeys.GAME_STATE) || '[]')
+export const getGameState = (infinite: boolean): GameState[] => {
+    return JSON.parse(window.localStorage.getItem(infinite ? LocalStorageKeys.GAME_STATE_INFINITE : LocalStorageKeys.GAME_STATE) || '[]')
 }
 
-export const getGameStateDay = (dateId: number): GameState | undefined => {
-    return getGameState().find(state => state.dateId === dateId)
+export const getGameStateDay = (infinite: boolean, dateId: number): GameState | undefined => {
+    return getGameState(infinite).find(state => state.dateId === dateId)
 }
 
-export const saveGameState = (gameState: GameState) => {
-    const oldState = getGameState().filter(state => state.dateId !== gameState.dateId)
-    window.localStorage.setItem(LocalStorageKeys.GAME_STATE, JSON.stringify([...oldState, gameState]))
+export const saveGameState = (infinite: boolean, gameState: GameState) => {
+    const oldState = getGameState(infinite).filter(state => state.dateId !== gameState.dateId)
+    window.localStorage.setItem(infinite ? LocalStorageKeys.GAME_STATE_INFINITE : LocalStorageKeys.GAME_STATE, JSON.stringify([...oldState, gameState]))
+}
+
+export const isGameWon = (gameState: GameState): boolean => {
+    return gameState.attempts.some(musicId => musicId === gameState.response)
+}
+
+export const isGameFinished = (gameState: GameState): boolean => {
+    return isGameWon(gameState) || gameState.attempts.length >= HEARDLE_SPLITS.length
 }
 
 export const padStartNumber = (n: number) => n.toString().padStart(2, '0')

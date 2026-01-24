@@ -9,7 +9,7 @@ import Button, { Variant } from '../commons/Button'
 import SearchIcon from '../../img/search.svg?react'
 import CrossIcon from '../../img/cross.svg?react'
 import { useDebounce } from '../../config/useDebounce'
-import { HEARDLE_SPLITS } from '../../config/consts'
+import { ALL_MUSICS, HEARDLE_SPLITS } from '../../config/consts'
 
 const FUSE_BASE_OPTIONS = {
 	ignoreDiacritics: true,
@@ -18,7 +18,7 @@ const FUSE_BASE_OPTIONS = {
 
 const Search = () => {
 	const { i18n : { language }, t } = useTranslation()
-	const { allMusics, guessMusic, gameState } = useHeardleContext()
+	const { guessMusic, gameState } = useHeardleContext()
 
 	const [search, setSearch] = React.useState<string>()
 	const [searchResults, setSearchResults] = React.useState<MusicElement[]>([])
@@ -42,14 +42,14 @@ const Search = () => {
 	}
 	
 	const fuse = React.useMemo(() => (
-		new Fuse(allMusics, {
+		new Fuse(ALL_MUSICS, {
 			...FUSE_BASE_OPTIONS,
 			keys: [
 				`name.${language}`,
 				`category.${language}`
 			]
 		})
-	), [allMusics, language])
+	), [language])
 
 	React.useEffect(() => {
 		setSearchResults(

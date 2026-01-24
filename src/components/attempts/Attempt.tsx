@@ -3,9 +3,9 @@
 import classNames from 'classnames'
 import { useTranslation } from 'react-i18next'
 import './Attempt.css'
-import { useHeardleContext } from '../../context/HeardleContext.tsx'
 import CheckboxIcon from '../../img/checkbox.svg?react'
 import CrossIcon from '../../img/cross.svg?react'
+import { ALL_MUSICS } from '../../config/consts'
 
 type Props = {
 	musicId?: number
@@ -13,9 +13,8 @@ type Props = {
 
 const Attempt = ({ musicId } : Props) => {
 	const { i18n : { language }, t } = useTranslation()
-	const { allMusics } = useHeardleContext()
 
-	const selectedMusic = allMusics.find(music => music.id === musicId)
+	const selectedMusic = ALL_MUSICS.find(music => music.id === musicId)
 
 	if (selectedMusic) {
 		return <div className={classNames('attempt', 'attempt--guessed')}>
