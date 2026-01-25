@@ -63,7 +63,23 @@ You will likely have to change the content of the the following traduction keys 
 
 #### Add / Remove a language
 
-TODO write this part of the doc
+To remove a language :
+- in the file `src/config/i18n/i18n.ts`, remove the language from :
+  - the `Locales` enum
+  - the `resources` const
+  - the `supportedLngs` parameter
+- delete the corresponding translation file (for exemple `src/config/i18n/fr.json`)
+- in the file `src/components/header/ModaleLanguage.tsx`, remove the corresponding case in the method `getLocaleFlag` (if you only have one language, you may want to completly remove this component)
+- finally, you can then remove the svg flag from `src/img`
+
+To add a language, this is pretty much the same actions in reverse :
+- add the corresponding flag in `src/img` (I use the flags from https://github.com/lipis/flag-icons)
+- in the file `src/components/header/ModaleLanguage.tsx`, add the corresponding case in the method `getLocaleFlag` (with the new flag svg)
+- add a translation file in `src/config/i18n`
+- in the file `src/config/i18n/i18n.ts`, add the new language in :
+  - the `Locales` enum
+  - the `resources` const (associated with the translation file)
+  - the `supportedLngs` parameter
 
 ### Other changes
 
