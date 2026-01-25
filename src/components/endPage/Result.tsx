@@ -6,13 +6,12 @@ import { useHeardleContext } from '../../context/HeardleContext'
 import { HEARDLE_SPLITS } from '../../config/consts'
 import Button, { Variant } from '../commons/Button'
 import { isGameWon } from '../../config/utils'
-import { routes, ROUTES } from '../../config/router'
 
 const COPIED_MESSAGE_TIMEOUT = 2000
 
 const Result = () => {
 	const { t } = useTranslation()
-	const { currentMusic, gameState, isInfinite, nextMusic } = useHeardleContext()
+	const { currentMusic, gameState, isInfinite, setIsInfinite, nextMusic } = useHeardleContext()
 
 	const [showCopied, setShowCopied] = React.useState(false)
 
@@ -82,7 +81,7 @@ const Result = () => {
 				/>
 				<Button
 					label={t('endPage.toDaily')}
-					onClick={routes[ROUTES.DAILY]().link.onClick}
+					onClick={() => setIsInfinite(false)}
 					variant={Variant.Primary}
 				/>
 			</>) : (<>
@@ -94,7 +93,7 @@ const Result = () => {
 				/>
 				<Button
 					label={t('endPage.toInfinite')}
-					onClick={routes[ROUTES.INFINITE]().link.onClick}
+					onClick={() => setIsInfinite(true)}
 					variant={Variant.Primary}
 				/>
 			</>)}

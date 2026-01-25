@@ -28,6 +28,7 @@
 .content-link a {
     color: #ffffff;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .content-link a:hover {

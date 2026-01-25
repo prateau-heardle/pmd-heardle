@@ -5,8 +5,8 @@
   "header": {
     "infos": {
       "title": "À propos",
-      "text": "<p>Un jeu Heardle réalisé avec React.</p><p>Pour créer votre propre Heardle, allez voir <a href=\"https://github.com/prateau/heardle-react\">ici</a></p>",
-      "subText": "Basé sur <a href=\"https://github.com/prateau/heardle-react\">heardle react</a>"
+      "text": "<p>Un jeu Heardle réalisé avec React.</p><p>Pour créer votre propre Heardle, allez voir <a href=\"https://github.com/prateau-base/heardle-react\">ici</a></p>",
+      "subText": "Basé sur <a href=\"https://github.com/prateau-base/heardle-react\">heardle react</a>"
     },
     "about": {
       "title": "Support",
@@ -74,7 +74,7 @@
       "win_one": "Vous avez trouvé la musique $t(heardleName) d'aujourd'hui en {{count}} seconde.",
       "win_other": "Vous avez trouvé la musique $t(heardleName) d'aujourd'hui en {{count}} secondes.",
       "lose": "Vous n'avez pas trouvé la musique $t(heardleName) d'aujourd'hui",
-      "link": "https://github.com/prateau/heardle-react"
+      "link": "https://github.com/prateau-base/heardle-react"
     }
   }
 }

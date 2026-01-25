@@ -7,12 +7,11 @@ import Search from './search/Search.tsx'
 import { useHeardleContext } from '../context/HeardleContext.tsx'
 import './Content.css'
 import { isGameFinished } from '../config/utils.ts'
-import { ROUTES, routes } from '../config/router.ts'
 import { useTranslation } from 'react-i18next'
 
 const Content = () => {
     const { t } = useTranslation()
-    const { gameState, isInfinite } = useHeardleContext()
+    const { gameState, isInfinite, setIsInfinite } = useHeardleContext()
 
     const isFinished = isGameFinished(gameState)
 
@@ -37,8 +36,8 @@ const Content = () => {
                 <AttemptList />
                 <div className='content-link'>
                     {isInfinite
-                        ? <a {...routes[ROUTES.DAILY]().link}>{t('game.toDaily')}</a>
-                        : <a {...routes[ROUTES.INFINITE]().link}>{t('game.toInfinite')}</a>
+                        ? <a onClick={() => setIsInfinite(false)}>{t('game.toDaily')}</a>
+                        : <a onClick={() => setIsInfinite(true)}>{t('game.toInfinite')}</a>
                     }
                 </div>
             </div>

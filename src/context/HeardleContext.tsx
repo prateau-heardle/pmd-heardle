@@ -2,7 +2,6 @@ import React from 'react'
 import type { GameState, MusicElement } from '../config/types.ts'
 import { getTodaySong } from './seededRng.ts'
 import { getGameStateDay, getInfiniteId, getTodayId, saveGameState } from '../config/utils.ts'
-import { ROUTES, useRoute } from '../config/router.ts'
 import { ALL_MUSICS } from '../config/consts.ts'
 
 export interface HeardleContextProps {
@@ -10,6 +9,7 @@ export interface HeardleContextProps {
 	gameState: GameState,
 	guessMusic: (musicId?: number) => void,
 	isInfinite: boolean,
+	setIsInfinite: (isInfinite: boolean) => void,
 	nextMusic: () => void,
 	musicImage?: string,
 	setMusicImage: (image: string) => void
@@ -20,11 +20,9 @@ const Context = React.createContext<HeardleContextProps>({} as HeardleContextPro
 export const useHeardleContext = () => React.useContext(Context)
 
 const HeardleContext = ({ children }: React.PropsWithChildren) => {
-	const route = useRoute()
+	const [isInfinite, setIsInfinite] = React.useState<boolean>(false)
 	const [gameState, setGameState] = React.useState<GameState>()
 	const [musicImage, setMusicImage] = React.useState<string>()
-
-	const isInfinite = route.name === ROUTES.INFINITE
 
 	const initGameState = React.useCallback(() => {
 		const todayId = isInfinite ? getInfiniteId() : getTodayId()
@@ -69,6 +67,7 @@ const HeardleContext = ({ children }: React.PropsWithChildren) => {
 				gameState,
 				guessMusic,
 				isInfinite,
+				setIsInfinite,
 				nextMusic: initGameState,
 				musicImage,
 				setMusicImage
