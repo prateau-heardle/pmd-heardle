@@ -13,7 +13,7 @@
     "url": "https://soundcloud.com/sdiatc/main-menu-pokemon-mystery",
     "name": {
       "en": "Top Menu",
-      "fr": "Menu principal"
+      "fr": "Menu principal "
     },
     "categoryId": 0
   },
@@ -28,11 +28,4628 @@
   },
   {
     "id": 3,
+    "url": "https://soundcloud.com/sdiatc/awakening-pokemon-mystery",
+    "name": {
+      "en": "Meeting with a Partner",
+      "fr": "Rencontre avec un Partenaire"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 4,
+    "url": "https://soundcloud.com/sdiatc/theres-trouble-pokemon-mystery",
+    "name": {
+      "en": "There's Trouble!",
+      "fr": "Il y a du Grabuge !"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 5,
+    "url": "https://soundcloud.com/sdiatc/tiny-woods-pokemon-mystery",
+    "name": {
+      "en": "Tiny Woods",
+      "fr": "Petit Bois"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 6,
+    "url": "https://soundcloud.com/sdiatc/at-the-end-of-the-road-pokemon",
+    "name": {
+      "en": "In the Depths of the Pit",
+      "fr": "Dans les Profondeurs"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 7,
+    "url": "https://soundcloud.com/sdiatc/job-clear-pokemon-mystery",
+    "name": {
+      "en": "Job Clear!",
+      "fr": "Mission accomplie! "
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 8,
+    "url": "https://soundcloud.com/sdiatc/rescue-team-base-pokemon",
+    "name": {
+      "en": "At the Rescue Base",
+      "fr": "À la Base Équipe"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 9,
+    "url": "https://soundcloud.com/sdiatc/thunderwave-cave-pokemon",
+    "name": {
+      "en": "Thunderwave Cave",
+      "fr": "Grotte Éclair"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 10,
+    "url": "https://soundcloud.com/sdiatc/pokemon-square-pokemon-mystery",
+    "name": {
+      "en": "Pokémon Square ",
+      "fr": "Place Pokémon"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 11,
+    "url": "https://soundcloud.com/sdiatc/mt-steel-pokemon-mystery",
+    "name": {
+      "en": "Mt. Steel",
+      "fr": "Mont Acier"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 12,
+    "url": "https://soundcloud.com/sdiatc/boss-battle-pokemon-mystery",
+    "name": {
+      "en": "Boss Battle!",
+      "fr": "Combat de chefs! "
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 13,
+    "url": "https://soundcloud.com/sdiatc/makuhita-dojo-pokemon-mystery",
+    "name": {
+      "en": "Makuhita Dojo",
+      "fr": "Dojo Makuhita"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 14,
+    "url": "https://soundcloud.com/sdiatc/sinister-woods-pokemon-mystery",
+    "name": {
+      "en": "Sinister Woods",
+      "fr": "Bois Sinistre"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 15,
+    "url": "https://soundcloud.com/sdiatc/silent-chasm-pokemon-mystery",
+    "name": {
+      "en": "Silent Chasm",
+      "fr": "Val Silencieux"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 16,
+    "url": "https://soundcloud.com/sdiatc/danger-pokemon-mystery-dungeon",
+    "name": {
+      "en": "Rising Fear",
+      "fr": "Peur croissante "
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 17,
+    "url": "https://soundcloud.com/sdiatc/mt-thunder-pokemon-mystery",
+    "name": {
+      "en": "Mt. Thunder",
+      "fr": "Mont Foudre"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 18,
+    "url": "https://soundcloud.com/sdiatc/mt-thunder-peak-pokemon",
+    "name": {
+      "en": "Mt. Thunder Peak",
+      "fr": "Mont Foudre - Sommet"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 19,
+    "url": "https://soundcloud.com/sdiatc/great-canyon-pokemon-mystery",
+    "name": {
+      "en": "Great Canyon ",
+      "fr": "Grand Ravin"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 20,
+    "url": "https://soundcloud.com/sdiatc/the-legend-of-ninetales",
+    "name": {
+      "en": "The Legend of Ninetales",
+      "fr": "La Légende de Feunard"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 21,
+    "url": "https://soundcloud.com/sdiatc/run-away-pokemon-mystery",
+    "name": {
+      "en": "The Escape ",
+      "fr": "La Fuite"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 22,
+    "url": "https://soundcloud.com/sdiatc/lapis-cave-pokemon-mystery",
+    "name": {
+      "en": "Lapis Cave",
+      "fr": "Grotte Lapis"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 23,
+    "url": "https://soundcloud.com/sdiatc/mt-blaze-pokemon-mystery",
+    "name": {
+      "en": "Mt. Blaze",
+      "fr": "Mont Ardent"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 24,
+    "url": "https://soundcloud.com/sdiatc/mt-blaze-peak-pokemon-mystery",
+    "name": {
+      "en": "Mt. Blaze Peak",
+      "fr": "Mont Ardent - Sommet"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 25,
+    "url": "https://soundcloud.com/sdiatc/kecleon-shop-pokemon-mystery",
+    "name": {
+      "en": "Kecleon Shop",
+      "fr": "Magasin Kecleon"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 26,
+    "url": "https://soundcloud.com/sdiatc/stop-thief-pokemon-mystery",
+    "name": {
+      "en": "It's a Thief! ",
+      "fr": "Au Voleur !"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 27,
+    "url": "https://soundcloud.com/sdiatc/escape-through-the-snow",
+    "name": {
+      "en": "Escape Through the Snow ",
+      "fr": "La Fuite à travers la Neige"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 28,
+    "url": "https://soundcloud.com/sdiatc/frosty-forest-pokemon-mystery",
+    "name": {
+      "en": "Frosty Forest",
+      "fr": "Forêt Givrée"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 29,
+    "url": "https://soundcloud.com/sdiatc/frosty-grotto-pokemon-mystery",
+    "name": {
+      "en": "Frosty Grotto",
+      "fr": "Forêt Givrée - Fond"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 30,
+    "url": "https://soundcloud.com/sdiatc/benevolent-spirit-pokemon",
+    "name": {
+      "en": "Gardevoir Inside of a Dream",
+      "fr": "Gardevoir dans un Rêve"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 31,
+    "url": "https://soundcloud.com/sdiatc/mt-freeze-pokemon-mystery",
+    "name": {
+      "en": "Mt. Freeze",
+      "fr": "Mont Glacial"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 32,
+    "url": "https://soundcloud.com/sdiatc/mt-freeze-peak-pokemon-mystery",
+    "name": {
+      "en": "Mt. Freeze Peak",
+      "fr": "Mont Glacial - Sommet"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 33,
+    "url": "https://soundcloud.com/sdiatc/monster-house-pokemon-mystery",
+    "name": {
+      "en": "Monster House!",
+      "fr": "Maison de monstres !"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 34,
+    "url": "https://soundcloud.com/sdiatc/magma-cavern-pokemon-mystery",
+    "name": {
+      "en": "Magma Cavern",
+      "fr": "Mine Magma"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 35,
+    "url": "https://soundcloud.com/sdiatc/magma-cavern-pit-pokemon",
+    "name": {
+      "en": "Magma Cavern Pit",
+      "fr": "Mine Magma - Fond"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 36,
+    "url": "https://soundcloud.com/sdiatc/world-calamity-pokemon-mystery",
+    "name": {
+      "en": "World Calamity",
+      "fr": "Catastrophe Naturelle"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 37,
+    "url": "https://soundcloud.com/sdiatc/sky-tower-pokemon-mystery",
+    "name": {
+      "en": "Sky Tower ",
+      "fr": "Tour Céleste"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 38,
+    "url": "https://soundcloud.com/sdiatc/sky-tower-summit-pokemon",
+    "name": {
+      "en": "Sky Tower Summit",
+      "fr": "Tour Céleste - Sommet"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 39,
+    "url": "https://soundcloud.com/sdiatc/legendary-boss-battle-pokemon",
+    "name": {
+      "en": "Defy the Legends ",
+      "fr": "Défi de légende "
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 40,
+    "url": "https://soundcloud.com/sdiatc/aftermath-pokemon-mystery",
+    "name": {
+      "en": "Protected World Peace",
+      "fr": "L’équilibre du monde Rétablit"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 41,
+    "url": "https://soundcloud.com/sento_fresco/farewell",
+    "name": {
+      "en": "Time for Farewell...",
+      "fr": "Le Temps des Adieux"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 42,
+    "url": "https://soundcloud.com/sdiatc/ending-pokemon-mystery-dungeon",
+    "name": {
+      "en": "Staff Roll",
+      "fr": "Générique de Fin"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 43,
+    "url": "https://soundcloud.com/sdiatc/time-of-reunion-pokemon",
+    "name": {
+      "en": "Time of Reunion",
+      "fr": "Temps de Retrouvailles"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 44,
+    "url": "https://soundcloud.com/masterarcano/pokemon-mystery-dungeon-red-rescue-team-stormy-sea-music",
+    "name": {
+      "en": "Stormy Sea",
+      "fr": "Mer Houleuse"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 45,
+    "url": "https://soundcloud.com/sdiatc/buried-relic-pokemon-mystery",
+    "name": {
+      "en": "Buried Relic / A New Adventure",
+      "fr": "Ruines Enfouies / Une Nouvelle Aventure"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 46,
+    "url": "https://soundcloud.com/sdiatc/friend-area-field-pokemon",
+    "name": {
+      "en": "Friend Area ~ Field (Beau Plains/Sacred Field/Mt. Cleft/Scorched Plains/Wild Plains)",
+      "fr": "Zones d'Accueil ~ Plaines (Plaine de Beauté/Terres Sacrées/Mt Escarpé/Plaines Brûlées/Plaines Sauvages)"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 47,
+    "url": "https://soundcloud.com/sdiatc/friend-area-steppe-pokemon",
+    "name": {
+      "en": "Friend Area ~ Steppe (Sky Blue Plains/Mt. Deepgreen/Safari)",
+      "fr": "Zones d'Accueil ~ Steppe (Plateau Azur/Mt Verdoyant/Savane)"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 48,
+    "url": "https://soundcloud.com/sdiatc/friend-area-forest-pokemon",
+    "name": {
+      "en": "Friend Area ~ Forest (Mist-rise Forest/Flyaway Forest/Overgrown Forest/Energetic Forest/Mt. Moonview/Mushroom Forest/Transform Forest/Secretive Forest)",
+      "fr": "Zones d'Accueil ~ Forêt (Bois des Brumes/Forêt de l'Essor/Océan de Verdure/Bois Dynamique/Mt Clair de Lune/Bois Champignon/Bois Morphing/Bois Occulte)"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 49,
+    "url": "https://soundcloud.com/sdiatc/friend-area-wilds-pokemon",
+    "name": {
+      "en": "Friend Area ~ Wilds (Mt. Discipline/Jungle/Ravaged Field/Magnetic Quarry/Thunder Meadow/Furnace Desert)",
+      "fr": "Zones d'Accueil ~ Aride (Mt Exigence/Jungle/Terres Arides/Grotte Magnétique/Plateau Orageux/Désert Fournaise)"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 50,
+    "url": "https://soundcloud.com/sdiatc/friend-area-swamp-pokemon",
+    "name": {
+      "en": "Friend Area ~ Swamp (Darkness Ridge/Peanut Swamp/Poison Swamp)",
+      "fr": "Zones d'Accueil ~ Marais (Col Ténébreux/Marais Roseaux/Marais Venimeux)"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 51,
+    "url": "https://soundcloud.com/sdiatc/friend-area-pond-pokemon",
+    "name": {
+      "en": "Friend Area ~ Pond (Rub-a-dub River/Turtleshell Pond/Shallow Beach/Waterfall Lake/Tadpole Pond)",
+      "fr": "Zones d'Accueil ~ Mare (Rivière Glouglou/Mare Carapace/Plage Sablefin/Lac Cascade/Mare aux Têtards)"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 52,
+    "url": "https://soundcloud.com/sdiatc/friend-area-lab-pokemon",
+    "name": {
+      "en": "Friend Area ~ Lab (Decrepit Lab/Power Plant)",
+      "fr": "Zones d'Accueil ~ Labo (Labo Abandonné/Centrale)"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 53,
+    "url": "https://soundcloud.com/sdiatc/friend-area-oceanic-pokemon",
+    "name": {
+      "en": "Friend Area ~ Oceanic (Frigid Cavern/Mystic Lake/Ice Floe Beach/Bountiful Sea/Serene Sea/Treasure Sea/Deepsea Floor)",
+      "fr": "Zones d'Accueil ~ Océanique (Caverne de Glace/Lac Mystique/Banquise/Mer Prospérité/Mer Sérénité/Mer aux Trésors/Fonds Marins)"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 54,
+    "url": "https://soundcloud.com/sdiatc/friend-area-caves-pokemon",
+    "name": {
+      "en": "Friend Area ~ Caves (Echo Cave/Dragon Cave/Boulder Cave/Crater/Ancient Relic/Aged Chambers)",
+      "fr": "Zones d'Accueil ~ Grottes (Grotte Échos/Grotte Dragon/Grotte Rocheuse/Cratère/Ruines Antiques/Temples Ancien)"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 55,
+    "url": "https://soundcloud.com/sento_fresco/intro",
+    "name": {
+      "en": "Opening",
+      "fr": "Introduction"
+    },
+    "categoryId": 0
+  },
+  {
+    "id": 56,
+    "url": "https://soundcloud.com/sento_fresco/a-grand-tale-of-time-and-darkness-bonus",
+    "name": {
+      "en": "A Grand Tale of Time and Darkness",
+      "fr": "Equipe d'exploration Pokémon - thème "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 57,
+    "url": "https://soundcloud.com/sento2/top-menu-theme",
+    "name": {
+      "en": "Top Menu Theme ",
+      "fr": "Menu principal - thème "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 58,
+    "url": "https://soundcloud.com/sento2/welcome-to-the-world-of",
+    "name": {
+      "en": "Welcome to the World of Pokémon! ",
+      "fr": "Bienvenue dans le monde des Pokémon! "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 59,
+    "url": "https://soundcloud.com/sento2/on-the-beach-at-dusk",
+    "name": {
+      "en": "On the Beach at Dusk ",
+      "fr": "Crépuscule sur la plage "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 60,
+    "url": "https://soundcloud.com/sento2/beach-cave",
+    "name": {
+      "en": "Beach Cave ",
+      "fr": "Grotte Littorale "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 61,
+    "url": "https://soundcloud.com/sento2/in-the-depths-of-the-pit",
+    "name": {
+      "en": "In the Depths of the Pit ",
+      "fr": "Dans les profondeurs "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 62,
+    "url": "https://soundcloud.com/sento2/wigglytuffs-guild",
+    "name": {
+      "en": "Wigglytuff's Guild ",
+      "fr": "Guilde de Grodoudou "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 63,
+    "url": "https://soundcloud.com/sento2/guildmaster-wigglytuff",
+    "name": {
+      "en": "Guildmaster Wigglytuff ",
+      "fr": "Grodoudou, Maître de la Guilde "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 64,
+    "url": "https://soundcloud.com/sento2/goodnight",
+    "name": {
+      "en": "Goodnight ",
+      "fr": "Bonne nuit "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 65,
+    "url": "https://soundcloud.com/sento2/wigglytuffs-guild-remix",
+    "name": {
+      "en": "Wigglytuff's Guild Remix ",
+      "fr": "La Guilde de Grodoudou - remix "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 66,
+    "url": "https://soundcloud.com/sento2/drenched-bluff",
+    "name": {
+      "en": "Drenched Bluff ",
+      "fr": "Falaise Trempée "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 67,
+    "url": "https://soundcloud.com/sento2/job-clear",
+    "name": {
+      "en": "Job Clear! ",
+      "fr": "Mission accomplie! "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 68,
+    "url": "https://soundcloud.com/sento2/treasure-town",
+    "name": {
+      "en": "Treasure Town ",
+      "fr": "Bourg-Trésor "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 69,
+    "url": "https://soundcloud.com/sento2/heartwarming",
+    "name": {
+      "en": "Heartwarming ",
+      "fr": "Baume au cœur "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 70,
+    "url": "https://soundcloud.com/sento2/growing-anxiety",
+    "name": {
+      "en": "Growing Anxiety ",
+      "fr": "L'angoisse monte "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 71,
+    "url": "https://soundcloud.com/sento2/oh-no",
+    "name": {
+      "en": "Oh No! ",
+      "fr": "Oh non! "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 72,
+    "url": "https://soundcloud.com/sento2/mt-bristle",
+    "name": {
+      "en": "Mt. Bristle ",
+      "fr": "Mt Hérissé "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 73,
+    "url": "https://soundcloud.com/sento2/boss-battle",
+    "name": {
+      "en": "Boss Battle! ",
+      "fr": "Combat de chefs! "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 74,
+    "url": "https://soundcloud.com/sento2/time-gear-remix",
+    "name": {
+      "en": "Time Gear Remix ",
+      "fr": "Rouage du Temps - remix "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 75,
+    "url": "https://soundcloud.com/sento2/the-gatekeepers",
+    "name": {
+      "en": "The Gatekeepers ",
+      "fr": "Les gardiens de l'entrée "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 76,
+    "url": "https://soundcloud.com/sento_fresco/outlaw",
+    "name": {
+      "en": "Outlaw! ",
+      "fr": "Hors-la-loi! "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 77,
+    "url": "https://soundcloud.com/sento2/i-saw-something-again",
+    "name": {
+      "en": "I Saw Something Again... ",
+      "fr": "Encore une vision... "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 78,
+    "url": "https://soundcloud.com/sento2/waterfall-cave",
+    "name": {
+      "en": "Waterfall Cave ",
+      "fr": "Grotte Cascade "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 79,
+    "url": "https://soundcloud.com/sento2/kecleons-shop",
+    "name": {
+      "en": "Kecleon's Shop ",
+      "fr": "Magasin Kecleon "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 80,
+    "url": "https://soundcloud.com/sento2/team-skull",
+    "name": {
+      "en": "Team Skull ",
+      "fr": "Equipe Crâne "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 81,
+    "url": "https://soundcloud.com/sento2/apple-woods",
+    "name": {
+      "en": "Apple Woods ",
+      "fr": "Bois aux Pommes "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 82,
+    "url": "https://soundcloud.com/sento2/craggy-coast",
+    "name": {
+      "en": "Craggy Coast ",
+      "fr": "Côte Escarpée "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 83,
+    "url": "https://soundcloud.com/sento2/cave-and-side-path",
+    "name": {
+      "en": "Cave and Side Path ",
+      "fr": "Grotte et Chemin Lisière "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 84,
+    "url": "https://soundcloud.com/sento2/mt-horn",
+    "name": {
+      "en": "Mt. Horn ",
+      "fr": "Mt Corne "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 85,
+    "url": "https://soundcloud.com/sento2/foggy-forest",
+    "name": {
+      "en": "Foggy Forest ",
+      "fr": "Forêt Brumeuse "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 86,
+    "url": "https://soundcloud.com/sento2/steam-cave",
+    "name": {
+      "en": "Steam Cave ",
+      "fr": "Grotte Etuve "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 87,
+    "url": "https://soundcloud.com/sento2/upper-steam-cave",
+    "name": {
+      "en": "Upper Steam Cave ",
+      "fr": "Grotte Etuve - hauteurs "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 88,
+    "url": "https://soundcloud.com/sento2/amp-plains",
+    "name": {
+      "en": "Amp Plains ",
+      "fr": "Plaines Elek "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 89,
+    "url": "https://soundcloud.com/sento2/far-amp-plains",
+    "name": {
+      "en": "Far Amp Plains ",
+      "fr": "Lointaines Plaines Elek "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 90,
+    "url": "https://soundcloud.com/sento2/monster-house",
+    "name": {
+      "en": "Monster House! ",
+      "fr": "Maison de monstres! "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 91,
+    "url": "https://soundcloud.com/sento2/rising-fear",
+    "name": {
+      "en": "Rising Fear ",
+      "fr": "Peur croissante "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 92,
+    "url": "https://soundcloud.com/sento2/northern-desert",
+    "name": {
+      "en": "Northern Desert ",
+      "fr": "Désert du Nord "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 93,
+    "url": "https://soundcloud.com/sento2/quicksand-cave",
+    "name": {
+      "en": "Quicksand Cave ",
+      "fr": "Grotte Sables Mouvants "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 94,
+    "url": "https://soundcloud.com/sento2/quicksand-pit",
+    "name": {
+      "en": "Quicksand Pit ",
+      "fr": "Grotte Sables Mouvants - fond "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 95,
+    "url": "https://soundcloud.com/sento2/crystal-cave",
+    "name": {
+      "en": "Crystal Cave ",
+      "fr": "Caverne Cristal "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 96,
+    "url": "https://soundcloud.com/sento2/crystal-crossing",
+    "name": {
+      "en": "Crystal Crossing ",
+      "fr": "Croisement Cristal "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 97,
+    "url": "https://soundcloud.com/sento2/at-the-end-of-the-day",
+    "name": {
+      "en": "At the End of the Day ",
+      "fr": "Le soir venu "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 98,
+    "url": "https://soundcloud.com/sento2/in-the-future",
+    "name": {
+      "en": "In the Future ",
+      "fr": "Dans le futur "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 99,
+    "url": "https://soundcloud.com/sento2/planets-paralysis",
+    "name": {
+      "en": "Planet's Paralysis ",
+      "fr": "Paralysie de la Planète "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 100,
+    "url": "https://soundcloud.com/sento2/chasm-cave",
+    "name": {
+      "en": "Chasm Cave ",
+      "fr": "Grotte Abîme "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 101,
+    "url": "https://soundcloud.com/sento2/dark-hill",
+    "name": {
+      "en": "Dark Hill ",
+      "fr": "Colline Sombre "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 102,
+    "url": "https://soundcloud.com/sento2/sealed-ruin",
+    "name": {
+      "en": "Sealed Ruin ",
+      "fr": "Ruine Scellée "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 103,
+    "url": "https://soundcloud.com/sento2/sealed-ruin-pit",
+    "name": {
+      "en": "Sealed Ruin Pit ",
+      "fr": "Ruine Scellée - fond "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 104,
+    "url": "https://soundcloud.com/sento2/dusk-forest",
+    "name": {
+      "en": "Dusk Forest ",
+      "fr": "Forêt Crépuscule "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 105,
+    "url": "https://soundcloud.com/sento2/deep-dusk-forest",
+    "name": {
+      "en": "Deep Dusk Forest ",
+      "fr": "Cœur Forêt Crépuscule "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 106,
+    "url": "https://soundcloud.com/sento2/the-power-of-darkness",
+    "name": {
+      "en": "The Power of Darkness ",
+      "fr": "La suprématie de l'ombre "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 107,
+    "url": "https://soundcloud.com/sento2/treeshroud-forest",
+    "name": {
+      "en": "Treeshroud Forest ",
+      "fr": "Forêt Linceul "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 108,
+    "url": "https://soundcloud.com/sento2/brine-cave",
+    "name": {
+      "en": "Brine Cave ",
+      "fr": "Caverne Saline "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 109,
+    "url": "https://soundcloud.com/sento2/lower-brine-cave",
+    "name": {
+      "en": "Lower Brine Cave ",
+      "fr": "Caverne Saline - profondeurs "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 110,
+    "url": "https://soundcloud.com/sento2/hidden-land",
+    "name": {
+      "en": "Hidden Land ",
+      "fr": "Terres Illusoires "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 111,
+    "url": "https://soundcloud.com/sento2/hidden-highland",
+    "name": {
+      "en": "Hidden Highland ",
+      "fr": "Hautes-Terres Illusoires "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 112,
+    "url": "https://soundcloud.com/sento2/battle-against-dusknoir",
+    "name": {
+      "en": "Battle against Dusknoir ",
+      "fr": "Combat contre Noctunoir "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 113,
+    "url": "https://soundcloud.com/sento2/time-gear",
+    "name": {
+      "en": "Time Gear ",
+      "fr": "Rouage du Temps "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 114,
+    "url": "https://soundcloud.com/sento2/through-the-sea-of-time",
+    "name": {
+      "en": "Through the Sea of Time ",
+      "fr": "Par-delà la Mer du Temps "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 115,
+    "url": "https://soundcloud.com/sento2/in-the-hands-of-fate",
+    "name": {
+      "en": "In the Hands of Fate ",
+      "fr": "Les dés sont jetés "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 116,
+    "url": "https://soundcloud.com/sento2/temporal-tower",
+    "name": {
+      "en": "Temporal Tower ",
+      "fr": "Tour du Temps "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 117,
+    "url": "https://soundcloud.com/sento2/temporal-spire",
+    "name": {
+      "en": "Temporal Spire ",
+      "fr": "Aiguille du Temps "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 118,
+    "url": "https://soundcloud.com/sento2/temporal-pinnacle",
+    "name": {
+      "en": "Temporal Pinnacle ",
+      "fr": "Pinacle du Temps "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 119,
+    "url": "https://soundcloud.com/sento2/down-a-dark-path",
+    "name": {
+      "en": "Down a Dark Path ",
+      "fr": "Sombre chemin "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 120,
+    "url": "https://soundcloud.com/sento2/dialgas-fight-to-the-finish",
+    "name": {
+      "en": "Dialga's Fight to the Finish! ",
+      "fr": "Combat sans pitié contre Dialga! "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 121,
+    "url": "https://soundcloud.com/sento2/time-restored",
+    "name": {
+      "en": "Time Restored ",
+      "fr": "Le temps rétabli "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 122,
+    "url": "https://soundcloud.com/sento2/dont-ever-forget",
+    "name": {
+      "en": "Don't Ever Forget... ",
+      "fr": "N'oublie jamais... "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 123,
+    "url": "https://soundcloud.com/sento2/have-to-get-home",
+    "name": {
+      "en": "Have to Get Home ",
+      "fr": "Rentrer chez nous "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 124,
+    "url": "https://soundcloud.com/sento2/farther-away",
+    "name": {
+      "en": "Farther Away... ",
+      "fr": "Toujours plus loin... "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 125,
+    "url": "https://soundcloud.com/sento2/a-wish-for-peace",
+    "name": {
+      "en": "A Wish for Peace ",
+      "fr": "Un vœu pour la paix "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 126,
+    "url": "https://soundcloud.com/sento2/memories-returned",
+    "name": {
+      "en": "Memories Returned ",
+      "fr": "Réminiscences "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 127,
+    "url": "https://soundcloud.com/sento2/ending-theme-intro",
+    "name": {
+      "en": "Ending Theme Intro ",
+      "fr": "Thème de fin - intro "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 128,
+    "url": "https://soundcloud.com/sento2/ending-theme",
+    "name": {
+      "en": "Ending Theme ",
+      "fr": "Thème de fin "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 129,
+    "url": "https://soundcloud.com/sento22/epilogue-theme",
+    "name": {
+      "en": "Epilogue Theme ",
+      "fr": "Epilogue - thème "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 130,
+    "url": "https://soundcloud.com/sento22/mystifying-forest",
+    "name": {
+      "en": "Mystifying Forest ",
+      "fr": "Forêt Trompeuse "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 131,
+    "url": "https://soundcloud.com/sento22/do-your-best-as-always",
+    "name": {
+      "en": "Do Your Best, as Always! ",
+      "fr": "Faites de votre mieux! "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 132,
+    "url": "https://soundcloud.com/sento22/blizzard-island-rescue-team",
+    "name": {
+      "en": "Blizzard Island Rescue Team Medley ",
+      "fr": "Equipe de Secours de l'Ile Blizzard "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 133,
+    "url": "https://soundcloud.com/sento22/surrounded-sea",
+    "name": {
+      "en": "Surrounded Sea ",
+      "fr": "Mer Fermée "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 134,
+    "url": "https://soundcloud.com/sento22/miracle-sea",
+    "name": {
+      "en": "Miracle Sea ",
+      "fr": "Mer Prodige "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 135,
+    "url": "https://soundcloud.com/sento22/aegis-cave",
+    "name": {
+      "en": "Aegis Cave ",
+      "fr": "Grotte Egide "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 136,
+    "url": "https://soundcloud.com/sento22/defy-the-legends",
+    "name": {
+      "en": "Defy the Legends ",
+      "fr": "Défi de légende "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 137,
+    "url": "https://soundcloud.com/sento22/concealed-ruins",
+    "name": {
+      "en": "Concealed Ruins ",
+      "fr": "Ruines Cachées "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 138,
+    "url": "https://soundcloud.com/sento22/mt-travail",
+    "name": {
+      "en": "Mt. Travail ",
+      "fr": "Mt Labeur "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 139,
+    "url": "https://soundcloud.com/sento22/in-the-nightmare",
+    "name": {
+      "en": "In the Nightmare ",
+      "fr": "En plein cauchemar "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 140,
+    "url": "https://soundcloud.com/sento22/palkias-onslaught",
+    "name": {
+      "en": "Palkia's Onslaught! ",
+      "fr": "Palkia attaque! "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 141,
+    "url": "https://soundcloud.com/sento22/dark-crater",
+    "name": {
+      "en": "Dark Crater ",
+      "fr": "Cratère Obscur "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 142,
+    "url": "https://soundcloud.com/sento22/deep-dark-crater",
+    "name": {
+      "en": "Deep Dark Crater ",
+      "fr": "Cratère Obscur - profondeurs "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 143,
+    "url": "https://soundcloud.com/sento22/random-dungeon-1",
+    "name": {
+      "en": "Random Dungeon Theme 1 ",
+      "fr": "Donjon aléatoire - thème 1 "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 144,
+    "url": "https://soundcloud.com/sento22/random-dungeon-2",
+    "name": {
+      "en": "Random Dungeon Theme 2 ",
+      "fr": "Donjon aléatoire - thème 2 "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 145,
+    "url": "https://soundcloud.com/sento22/marowak-dojo",
+    "name": {
+      "en": "Marowak Dojo ",
+      "fr": "Dojo Ossatueur "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 146,
+    "url": "https://soundcloud.com/sento22/pelipper-island",
+    "name": {
+      "en": "Pelipper Island ",
+      "fr": "Ile Bekipan "
+    },
+    "categoryId": 1
+  },
+  {
+    "id": 147,
+    "url": "https://soundcloud.com/sento2/pokemon-exploration-team-theme",
+    "name": {
+      "en": "Pokémon Exploration Team Theme ",
+      "fr": "Equipe d'exploration Pokémon - thème "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 148,
+    "url": "https://soundcloud.com/sento2/spindas-cafe",
+    "name": {
+      "en": "Spinda's Café ",
+      "fr": "Café Spinda "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 149,
+    "url": "https://soundcloud.com/sento22/shaymin-village",
+    "name": {
+      "en": "Shaymin Village ",
+      "fr": "Village Shaymin "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 150,
+    "url": "https://soundcloud.com/sento22/sky-peak-forest",
+    "name": {
+      "en": "Sky Peak Forest ",
+      "fr": "Pic Céleste - forêt "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 151,
+    "url": "https://soundcloud.com/sento22/sky-peak-cave",
+    "name": {
+      "en": "Sky Peak Cave ",
+      "fr": "Pic Céleste - grotte "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 152,
+    "url": "https://soundcloud.com/sento22/sky-peak-prairie",
+    "name": {
+      "en": "Sky Peak Prairie ",
+      "fr": "Pic Céleste - prairie "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 153,
+    "url": "https://soundcloud.com/sento22/sky-peak-coast",
+    "name": {
+      "en": "Sky Peak Coast ",
+      "fr": "Pic Céleste - littoral "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 154,
+    "url": "https://soundcloud.com/sento22/sky-peak-snowfield",
+    "name": {
+      "en": "Sky Peak Snowfield ",
+      "fr": "Pic Céleste - étendues neigeuses "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 155,
+    "url": "https://soundcloud.com/sento22/sky-peak-final-pass",
+    "name": {
+      "en": "Sky Peak Final Pass ",
+      "fr": "Pic Céleste - dernier col "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 156,
+    "url": "https://soundcloud.com/sento22/random-dungeon-3",
+    "name": {
+      "en": "Random Dungeon Theme 3 ",
+      "fr": "Donjon aléatoire - thème 3 "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 157,
+    "url": "https://soundcloud.com/sento22/sympathy",
+    "name": {
+      "en": "Sympathy ",
+      "fr": "Compassion "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 158,
+    "url": "https://soundcloud.com/sento22/beyond-the-dream",
+    "name": {
+      "en": "Beyond the Dream ",
+      "fr": "Au-delà du rêve "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 159,
+    "url": "https://soundcloud.com/sento22/air-of-unease",
+    "name": {
+      "en": "Air of Unease ",
+      "fr": "Malaise "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 160,
+    "url": "https://soundcloud.com/sento22/star-cave",
+    "name": {
+      "en": "Star Cave ",
+      "fr": "Caverne Etoile "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 161,
+    "url": "https://soundcloud.com/sento22/deep-star-cave",
+    "name": {
+      "en": "Deep Star Cave ",
+      "fr": "Caverne Etoile - profondeurs "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 162,
+    "url": "https://soundcloud.com/sento22/one-for-all-all-for-one",
+    "name": {
+      "en": "One for All, All for One! ",
+      "fr": "Un pour tous, tous pour un! "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 163,
+    "url": "https://soundcloud.com/sento22/murky-forest",
+    "name": {
+      "en": "Murky Forest ",
+      "fr": "Forêt Glauque "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 164,
+    "url": "https://soundcloud.com/sento22/a-fun-exploration",
+    "name": {
+      "en": "A Fun Exploration ",
+      "fr": "Une exploration du tonnerre "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 165,
+    "url": "https://soundcloud.com/sento22/fortune-ravine",
+    "name": {
+      "en": "Fortune Ravine ",
+      "fr": "Ravin Aubaine "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 166,
+    "url": "https://soundcloud.com/sento22/fortune-ravine-depths",
+    "name": {
+      "en": "Fortune Ravine Depths ",
+      "fr": "Ravin Aubaine - entrailles "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 167,
+    "url": "https://soundcloud.com/sento22/it-cant-be",
+    "name": {
+      "en": "It Can't Be... ",
+      "fr": "Impossible... "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 168,
+    "url": "https://soundcloud.com/sento22/defend-globe",
+    "name": {
+      "en": "Defend Globe ",
+      "fr": "Défensphère "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 169,
+    "url": "https://soundcloud.com/sento22/defend-globe-ending",
+    "name": {
+      "en": "Defend Globe (Ending) ",
+      "fr": "Défensphère (fin) "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 170,
+    "url": "https://soundcloud.com/sento22/spring-cave",
+    "name": {
+      "en": "Spring Cave ",
+      "fr": "Caverne Source "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 171,
+    "url": "https://soundcloud.com/sento22/lower-spring-cave",
+    "name": {
+      "en": "Lower Spring Cave ",
+      "fr": "Caverne Source - bas "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 172,
+    "url": "https://soundcloud.com/sento22/spring-cave-depths",
+    "name": {
+      "en": "Spring Cave Depths ",
+      "fr": "Caverne Source - entrailles "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 173,
+    "url": "https://soundcloud.com/sento22/southern-jungle",
+    "name": {
+      "en": "Southern Jungle ",
+      "fr": "Jungle Méridionale "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 174,
+    "url": "https://soundcloud.com/sento22/boulder-quarry",
+    "name": {
+      "en": "Boulder Quarry ",
+      "fr": "Carrière Rocher "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 175,
+    "url": "https://soundcloud.com/sento22/illusion-stone-chamber",
+    "name": {
+      "en": "Illusion Stone Chamber ",
+      "fr": "Passage du Mur Mirage "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 176,
+    "url": "https://soundcloud.com/sento22/limestone-cavern",
+    "name": {
+      "en": "Limestone Cavern ",
+      "fr": "Caverne Calcaire "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 177,
+    "url": "https://soundcloud.com/sento22/deep-limestone-cavern",
+    "name": {
+      "en": "Deep Limestone Cavern ",
+      "fr": "Caverne Calcaire - profondeurs "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 178,
+    "url": "https://soundcloud.com/sento22/team-charms-theme",
+    "name": {
+      "en": "Team Charm's Theme ",
+      "fr": "Equipe Charme - thème "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 179,
+    "url": "https://soundcloud.com/sento22/for-a-new-life",
+    "name": {
+      "en": "For a New Life ",
+      "fr": "Pour une vie nouvelle "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 180,
+    "url": "https://soundcloud.com/sento22/barren-valley",
+    "name": {
+      "en": "Barren Valley ",
+      "fr": "Vallée Stérile "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 181,
+    "url": "https://soundcloud.com/sento22/dark-wasteland",
+    "name": {
+      "en": "Dark Wasteland ",
+      "fr": "Désert Noir "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 182,
+    "url": "https://soundcloud.com/sento22/spacial-cliffs",
+    "name": {
+      "en": "Spacial Cliffs ",
+      "fr": "Falaises Spatiales "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 183,
+    "url": "https://soundcloud.com/sento22/dark-ice-mountain",
+    "name": {
+      "en": "Dark Ice Mountain ",
+      "fr": "Montagne Sombre Gel "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 184,
+    "url": "https://soundcloud.com/sento22/living-spirit",
+    "name": {
+      "en": "Living Spirit ",
+      "fr": "Dans vos mémoires "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 185,
+    "url": "https://soundcloud.com/sento22/icicle-forest",
+    "name": {
+      "en": "Icicle Forest ",
+      "fr": "Forêt Glaçon "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 186,
+    "url": "https://soundcloud.com/sento22/proud-accomplishment",
+    "name": {
+      "en": "Proud Accomplishment ",
+      "fr": "Glorieux exploit "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 187,
+    "url": "https://soundcloud.com/sento_fresco/vast-ice-mountain",
+    "name": {
+      "en": "Vast Ice Mountain ",
+      "fr": "Montagne Glacier "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 188,
+    "url": "https://soundcloud.com/sento_fresco/vast-ice-mountain-peak",
+    "name": {
+      "en": "Vast Ice Mountain Peak ",
+      "fr": "Montagne Glacier - pic "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 189,
+    "url": "https://soundcloud.com/sento_fresco/in-the-morning-sun",
+    "name": {
+      "en": "In the Morning Sun ",
+      "fr": "Au soleil levant "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 190,
+    "url": "https://soundcloud.com/sento_fresco/a-new-world",
+    "name": {
+      "en": "A New World ",
+      "fr": "Un monde nouveau "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 191,
+    "url": "https://soundcloud.com/sento_fresco/its-not-a-miracle",
+    "name": {
+      "en": "It's Not a Miracle ",
+      "fr": "Pas un miracle "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 192,
+    "url": "https://soundcloud.com/sento_fresco/thoughts-for-friends",
+    "name": {
+      "en": "Thoughts for Friends ",
+      "fr": "Une pensée pour les amis "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 193,
+    "url": "https://soundcloud.com/sento_fresco/a-message-on-the-wind",
+    "name": {
+      "en": "A Message on the Wind ",
+      "fr": "Message au vent "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 194,
+    "url": "https://soundcloud.com/sento_fresco/life-goes-on-ending",
+    "name": {
+      "en": "Life Goes On! (Ending) ",
+      "fr": "La vie continue! (fin) "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 195,
+    "url": "https://soundcloud.com/widoyod332/title-theme",
+    "name": {
+      "en": "Title Theme ",
+      "fr": "Thème de l'écran titre "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 196,
+    "url": "https://soundcloud.com/widoyod332/ludicolo-dance",
+    "name": {
+      "en": "Ludicolo Dance ",
+      "fr": "La samba de Ludicolo "
+    },
+    "categoryId": 2
+  },
+  {
+    "id": 197,
+    "url": "https://soundcloud.com/widoyod332/shady-rockland",
+    "name": {
+      "en": "Shady Rockland",
+      "fr": "Colline Douteuse"
+    },
+    "categoryId": 3
+  },
+  {
+    "id": 198,
+    "url": "https://soundcloud.com/widoyod332/dubious-valley",
+    "name": {
+      "en": "Dubious Valley",
+      "fr": "Vallée Douteuse"
+    },
+    "categoryId": 3
+  },
+  {
+    "id": 199,
+    "url": "https://soundcloud.com/widoyod332/dubious-forest",
+    "name": {
+      "en": "Dubious Forest",
+      "fr": "Forêt Douteuse "
+    },
+    "categoryId": 3
+  },
+  {
+    "id": 200,
+    "url": "https://soundcloud.com/widoyod332/cheerful-meadow",
+    "name": {
+      "en": "Cheerful Meadow",
+      "fr": "Pairie Riante "
+    },
+    "categoryId": 3
+  },
+  {
+    "id": 201,
+    "url": "https://soundcloud.com/widoyod332/sparkling-meadow",
+    "name": {
+      "en": "Sparkling Meadow",
+      "fr": "Prairie Scintillante"
+    },
+    "categoryId": 3
+  },
+  {
+    "id": 202,
+    "url": "https://soundcloud.com/widoyod332/sunset-rockland",
+    "name": {
+      "en": "Sunset Rockland",
+      "fr": "Terre du Couchant "
+    },
+    "categoryId": 3
+  },
+  {
+    "id": 203,
+    "url": "https://soundcloud.com/widoyod332/chocolate-field",
+    "name": {
+      "en": "Chocolate Field",
+      "fr": "Champ Chocolat"
+    },
+    "categoryId": 3
+  },
+  {
+    "id": 204,
+    "url": "https://soundcloud.com/widoyod332/path-to-treasure-valley",
+    "name": {
+      "en": "Path to Treasure Valley",
+      "fr": "Chemin de la Vallée au Trésor"
+    },
+    "categoryId": 3
+  },
+  {
+    "id": 205,
+    "url": "https://soundcloud.com/widoyod332/marsh-valley",
+    "name": {
+      "en": "Marsh Valley",
+      "fr": "Vallée Marécageuse"
+    },
+    "categoryId": 3
+  },
+  {
+    "id": 206,
+    "url": "https://soundcloud.com/widoyod332/path-to-treasure-island",
+    "name": {
+      "en": "Path to Treasure Island",
+      "fr": "Chemin de l’Île au Trésor"
+    },
+    "categoryId": 3
+  },
+  {
+    "id": 207,
+    "url": "https://soundcloud.com/widoyod332/mica-lake",
+    "name": {
+      "en": "Mica Lake",
+      "fr": "Lac de Mica "
+    },
+    "categoryId": 3
+  },
+  {
+    "id": 208,
+    "url": "https://soundcloud.com/widoyod332/ending",
+    "name": {
+      "en": "Ending",
+      "fr": "Thème de fin"
+    },
+    "categoryId": 3
+  },
+  {
+    "id": 209,
+    "url": "https://soundcloud.com/widoyod332/sweets",
+    "name": {
+      "en": "Sweets",
+      "fr": "Bonbons"
+    },
+    "categoryId": 3
+  },
+  {
+    "id": 210,
+    "url": "https://soundcloud.com/widoyod332/delicious",
+    "name": {
+      "en": "Delicious!",
+      "fr": "Délicieux !"
+    },
+    "categoryId": 3
+  },
+  {
+    "id": 211,
+    "url": "https://soundcloud.com/widoyod332/slowking",
+    "name": {
+      "en": "Slowking",
+      "fr": "Roigada"
+    },
+    "categoryId": 3
+  },
+  {
+    "id": 212,
+    "url": "https://soundcloud.com/widoyod332/its-alright",
+    "name": {
+      "en": "It’s Alright",
+      "fr": "Tout va bien"
+    },
+    "categoryId": 3
+  },
+  {
+    "id": 213,
+    "url": "https://soundcloud.com/widoyod332/theme-of-adventure-team",
+    "name": {
+      "en": "Theme of Adventure Team",
+      "fr": "Thème de l'équipe d'aventure"
+    },
+    "categoryId": 3
+  },
+  {
+    "id": 214,
+    "url": "https://soundcloud.com/widoyod332/this-cookie-is-for-you",
+    "name": {
+      "en": "This Cookie is for You",
+      "fr": "Ce cookie est pour toi"
+    },
+    "categoryId": 3
+  },
+  {
+    "id": 215,
+    "url": "https://soundcloud.com/widoyod332/job-clear",
+    "name": {
+      "en": "Job Clear!",
+      "fr": "Mission accomplie! "
+    },
+    "categoryId": 3
+  },
+  {
+    "id": 216,
+    "url": "https://soundcloud.com/widoyod332/pokemon-village-beach-garden",
+    "name": {
+      "en": "Pokémon Village/Beach/Garden",
+      "fr": "Village/Plage/Jardin Pokémon"
+    },
+    "categoryId": 3
+  },
+  {
+    "id": 217,
+    "url": "https://soundcloud.com/widoyod332/top-menu-theme",
+    "name": {
+      "en": "Top Menu Theme",
+      "fr": "Menu principal - thème "
+    },
+    "categoryId": 3
+  },
+  {
+    "id": 218,
+    "url": "https://soundcloud.com/p0ryg0n-xyz/pokemon-mystery-dungeon-gates-to-infinity-02-main-menu",
+    "name": {
+      "en": "Main Menu ",
+      "fr": "Menu Principal"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 219,
+    "url": "https://soundcloud.com/p0ryg0n-xyz/pokemon-mystery-dungeon-gates-to-infinity-03-i-look-like-a-pokemon",
+    "name": {
+      "en": "I Look Like a Pokémon! ",
+      "fr": "C'est moi, ça ?!"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 220,
+    "url": "https://soundcloud.com/p0ryg0n-xyz/pokemon-mystery-dungeon-gates-to-infinity-04-our-first-meeting",
+    "name": {
+      "en": "Our First Meeting ",
+      "fr": "Première Rencontre"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 221,
+    "url": "https://soundcloud.com/p0ryg0n-xyz/pokemon-mystery-dungeon-gates-to-infinity-05-ragged-mountain",
+    "name": {
+      "en": "Ragged Mountain ",
+      "fr": "Le Mont Bosselé"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 222,
+    "url": "https://soundcloud.com/dafot16520/great-job",
+    "name": {
+      "en": "Great Job! ",
+      "fr": "Mission Accomplie !"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 223,
+    "url": "https://soundcloud.com/dafot16520/pokemon-paradise",
+    "name": {
+      "en": "Pokémon Paradise ",
+      "fr": "Pokéden 1"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 224,
+    "url": "https://soundcloud.com/chris-carruth-1/post-town-pokemon-mystery-dungeon-gates-to-infinity-music-extended",
+    "name": {
+      "en": "Come on in to Post Town! ",
+      "fr": "Entrez au Village Relais !"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 225,
+    "url": "https://soundcloud.com/dafot16520/the-carpenter-of-post-town",
+    "name": {
+      "en": "The Carpenter of Post Town ",
+      "fr": "Le Charpentier du Village"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 226,
+    "url": "https://soundcloud.com/pan-pan-105891170/stony-cave-pokemon-mystery-dungeon-gates-to-infinity",
+    "name": {
+      "en": "Stony Cave ",
+      "fr": "La Grotte de Pierre"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 227,
+    "url": "https://soundcloud.com/dafot16520/that-is-odd",
+    "name": {
+      "en": "That Is Odd... ",
+      "fr": "Comme c'est étrange..."
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 228,
+    "url": "https://soundcloud.com/dafot16520/hazy-pass",
+    "name": {
+      "en": "Hazy Pass ",
+      "fr": "Le Col du Mirage"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 229,
+    "url": "https://soundcloud.com/dafot16520/the-voices-in-the-dreams",
+    "name": {
+      "en": "The Voice in the Dreams ",
+      "fr": "La Voix du Rêve"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 230,
+    "url": "https://soundcloud.com/dafot16520/the-coming-danger",
+    "name": {
+      "en": "The Coming Danger ",
+      "fr": "Menace Oppressante"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 231,
+    "url": "https://soundcloud.com/xisiwib589/boss-battle",
+    "name": {
+      "en": "Battling the Boss ",
+      "fr": "Combat de Boss !"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 232,
+    "url": "https://soundcloud.com/xisiwib589/despair-light-arrangement",
+    "name": {
+      "en": "Despair: Light Arrangement ",
+      "fr": "Désespoir - remix"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 233,
+    "url": "https://soundcloud.com/xisiwib589/despair-super-light-arrangment",
+    "name": {
+      "en": "Despair: Super Light ",
+      "fr": "Désespoir - remix léger"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 234,
+    "url": "https://soundcloud.com/dafot16520/hope-light-arrangement-2",
+    "name": {
+      "en": "Hope: Light Arrangement 2 ",
+      "fr": "Espoir - remix 2"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 235,
+    "url": "https://soundcloud.com/dafot16520/hazy-pass-highlands",
+    "name": {
+      "en": "Hazy Pass (Highlands) ",
+      "fr": "Les Hauteurs du Col du Mirage"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 236,
+    "url": "https://soundcloud.com/dafot16520/hope-light-arrangement-1",
+    "name": {
+      "en": "Hope: Light Arrangement 1 ",
+      "fr": "Espoir - remix 1"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 237,
+    "url": "https://soundcloud.com/pokedan-trash/stompstump-peak-pokemon-mystery-dungeon-gates-to-infinity",
+    "name": {
+      "en": "Stompstump Peak ",
+      "fr": "Le Mont Toc Toc"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 238,
+    "url": "https://soundcloud.com/dafot16520/mysterious-world",
+    "name": {
+      "en": "A Mysterious World ",
+      "fr": "Un Monde Étrange"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 239,
+    "url": "https://soundcloud.com/dafot16520/whats-wrong-with-everyone",
+    "name": {
+      "en": "What's Wrong with Everyone? ",
+      "fr": "Qu'avez-vous donc tous ?"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 240,
+    "url": "https://soundcloud.com/xisiwib589/desolate-canyon",
+    "name": {
+      "en": "Desolate Canyon ",
+      "fr": "La Vallée Dévastée"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 241,
+    "url": "https://soundcloud.com/dafot16520/the-coming-danger-arrangement",
+    "name": {
+      "en": "The Coming Danger: Arrangement ",
+      "fr": "Menace Oppressante - remix"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 242,
+    "url": "https://soundcloud.com/dafot16520/pokemon-friends",
+    "name": {
+      "en": "Pokémon Friends ",
+      "fr": "Mes amis les Pokémon"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 243,
+    "url": "https://soundcloud.com/dafot16520/theme-of-hope",
+    "name": {
+      "en": "Stirrings of Hope ",
+      "fr": "Espoir - thème"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 244,
+    "url": "https://soundcloud.com/dafot16520/theme-of-hope-march",
+    "name": {
+      "en": "Stirrings of Hope: March ",
+      "fr": "Marche de l'Espoir - thème"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 245,
+    "url": "https://soundcloud.com/dafot16520/pokemon-paradise-reprise",
+    "name": {
+      "en": "Pokémon Paradise: Reprise ",
+      "fr": "Pokéden 2"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 246,
+    "url": "https://soundcloud.com/dafot16520/the-v-wheeeeel",
+    "name": {
+      "en": "V-Wheeeeeel!!! ",
+      "fr": "V-Roulette !"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 247,
+    "url": "https://soundcloud.com/dafot16520/kecleon-shop",
+    "name": {
+      "en": "Kecleon Shop ",
+      "fr": "Marché Kecleon"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 248,
+    "url": "https://soundcloud.com/dafot16520/stop-thief",
+    "name": {
+      "en": "Stop, Thief! ",
+      "fr": "Alerte !"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 249,
+    "url": "https://soundcloud.com/dafot16520/icy-sanctum-arrangement-1",
+    "name": {
+      "en": "Icy Sanctum: Arrangement 1 ",
+      "fr": "Terres de Glace - remix"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 250,
+    "url": "https://soundcloud.com/dafot16520/inflora-forest",
+    "name": {
+      "en": "Inflora Forest ",
+      "fr": "La Forêt Bigarrée"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 251,
+    "url": "https://soundcloud.com/dafot16520/touched-by-kindness",
+    "name": {
+      "en": "Touched by Kindness ",
+      "fr": "Gentillesse Émouvante"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 252,
+    "url": "https://soundcloud.com/dafot16520/good-night",
+    "name": {
+      "en": "Good Night ",
+      "fr": "Bonne Nuit"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 253,
+    "url": "https://soundcloud.com/xisiwib589/at-the-end-of-the-dungeon",
+    "name": {
+      "en": "Mysteries Within ",
+      "fr": "Dans les Profondeurs"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 254,
+    "url": "https://soundcloud.com/dafot16520/pokemon-friends-arrangement",
+    "name": {
+      "en": "Pokémon Friends: Arrangement ",
+      "fr": "Mes amis les Pokémon - remix"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 255,
+    "url": "https://soundcloud.com/xisiwib589/crags-of-lament",
+    "name": {
+      "en": "Crags of Lament ",
+      "fr": "La Vallée des Larmes"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 256,
+    "url": "https://soundcloud.com/dafot16520/within-the-crags-of-lament",
+    "name": {
+      "en": "Within the Crags of Lament ",
+      "fr": "Au fond de la Vallée des Larmes"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 257,
+    "url": "https://soundcloud.com/xisiwib589/dreams-and-hope",
+    "name": {
+      "en": "Dreams and Hopes ",
+      "fr": "Rêve et Espoir"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 258,
+    "url": "https://soundcloud.com/dafot16520/icy-sanctum-arrangement-2",
+    "name": {
+      "en": "Icy Sanctum: Arrangement 2 ",
+      "fr": "Terres de Glace - remix 2"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 259,
+    "url": "https://soundcloud.com/dafot16520/magnagate",
+    "name": {
+      "en": "Magnagate ",
+      "fr": "Magna Porta"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 260,
+    "url": "https://soundcloud.com/xisiwib589/a-friends-decision",
+    "name": {
+      "en": "A Friend's Decision ",
+      "fr": "Souvenirs Confiés"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 261,
+    "url": "https://soundcloud.com/dafot16520/telluric-path",
+    "name": {
+      "en": "Telluric Path ",
+      "fr": "Le Couloir Tellurique"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 262,
+    "url": "https://soundcloud.com/dafot16520/icy-sanctum",
+    "name": {
+      "en": "Icy Sanctum ",
+      "fr": "Terres de Glace"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 263,
+    "url": "https://soundcloud.com/dafot16520/great-glacier",
+    "name": {
+      "en": "Great Glacier ",
+      "fr": "Le Grand Glacier"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 264,
+    "url": "https://soundcloud.com/xisiwib589/glacial-underpass",
+    "name": {
+      "en": "Glacial Underpass ",
+      "fr": "Les Caves de Glace"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 265,
+    "url": "https://soundcloud.com/pokedan-trash/glacier-palace-pokemon-mystery-dungeon-gates-to-infinity",
+    "name": {
+      "en": "Glacier Palace ",
+      "fr": "Le Palais de Glace"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 266,
+    "url": "https://soundcloud.com/xisiwib589/glacier-palace-reaches",
+    "name": {
+      "en": "Glacier Palace (Reaches) ",
+      "fr": "Sommet du Palais de Glace"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 267,
+    "url": "https://soundcloud.com/xisiwib589/deeper-dungeon-depths",
+    "name": {
+      "en": "Mysteries Within: Arrangement 1 ",
+      "fr": "Dans les Profondeurs - remix 1"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 268,
+    "url": "https://soundcloud.com/dafot16520/sympathy-and-sincerity",
+    "name": {
+      "en": "Sympathy and Sincerity ",
+      "fr": "Prévenance et Sincérité"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 269,
+    "url": "https://soundcloud.com/pokedan-trash/kilionea-road-pokemon-mystery-dungeon-gates-to-infinity",
+    "name": {
+      "en": "Kilionea Road ",
+      "fr": "Le Détour Vésuvien"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 270,
+    "url": "https://soundcloud.com/dafot16520/monster-house",
+    "name": {
+      "en": "It's a Monster House! ",
+      "fr": "Maison de Monstres !"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 271,
+    "url": "https://soundcloud.com/xisiwib589/forest-of-shadows",
+    "name": {
+      "en": "Forest of Shadows ",
+      "fr": "La Forêt Nuit Noire"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 272,
+    "url": "https://soundcloud.com/dafot16520/hiding-in-the-shadows",
+    "name": {
+      "en": "Hiding in the Shadows ",
+      "fr": "Caché dans les Ténèbres"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 273,
+    "url": "https://soundcloud.com/dafot16520/in-the-dark",
+    "name": {
+      "en": "In the Dark ",
+      "fr": "Dans l'Obscurité..."
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 274,
+    "url": "https://soundcloud.com/xisiwib589/daybreak-ridge",
+    "name": {
+      "en": "Daybreak Ridge ",
+      "fr": "Le Mont du Matin"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 275,
+    "url": "https://soundcloud.com/xisiwib589/daybreak-ridge-highlands",
+    "name": {
+      "en": "Daybreak Ridge (Highlands) ",
+      "fr": "Les Hauteurs du Mont du Matin"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 276,
+    "url": "https://soundcloud.com/dafot16520/hydreigons-ambush",
+    "name": {
+      "en": "Hydreigon's Ambush! ",
+      "fr": "Trioxhydre Attaque !"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 277,
+    "url": "https://soundcloud.com/dafot16520/ochre-quarry",
+    "name": {
+      "en": "Ochre Quarry ",
+      "fr": "Le Canyon Jaune"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 278,
+    "url": "https://soundcloud.com/dafot16520/withered-savanna",
+    "name": {
+      "en": "Withered Savanna ",
+      "fr": "La Brousse Aride"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 279,
+    "url": "https://soundcloud.com/dafot16520/holehills",
+    "name": {
+      "en": "Holehills ",
+      "fr": "Les Monts Troglodytes"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 280,
+    "url": "https://soundcloud.com/dafot16520/the-trap-is-set",
+    "name": {
+      "en": "The Trap Is Set ",
+      "fr": "Le Piège Tendu"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 281,
+    "url": "https://soundcloud.com/dafot16520/hydregion-strikes",
+    "name": {
+      "en": "The Heroes of Holehills ",
+      "fr": "Bataille aux Monts Troglodytes !"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 282,
+    "url": "https://soundcloud.com/pokedan-trash/scorching-desert-pokemon-mystery-dungeon-gates-to-infinity",
+    "name": {
+      "en": "Scorching Desert ",
+      "fr": "Le Désert Brûlant"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 283,
+    "url": "https://soundcloud.com/xisiwib589/confronting-kyurem",
+    "name": {
+      "en": "Confronting Kyurem ",
+      "fr": "Kyurem Approche"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 284,
+    "url": "https://soundcloud.com/xisiwib589/despair-heavy-arrangement",
+    "name": {
+      "en": "Despair: Heavy Arrangement ",
+      "fr": "Désespoir - remix heavy"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 285,
+    "url": "https://soundcloud.com/xisiwib589/deepest-dungeon-depths",
+    "name": {
+      "en": "Mysteries Within: Arrangement 2 ",
+      "fr": "Dans les Profondeurs - remix 2"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 286,
+    "url": "https://soundcloud.com/dafot16520/hope-light-arrangment-3",
+    "name": {
+      "en": "Hope: Light Arrangement 3 ",
+      "fr": "Espoir - remix 3"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 287,
+    "url": "https://soundcloud.com/pokedan-trash/tyrian-maze-pokemon-mystery-dungeon-gates-to-infinity",
+    "name": {
+      "en": "Tyrian Maze ",
+      "fr": "Le Dédale Zinzolin"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 288,
+    "url": "https://soundcloud.com/dafot16520/tyrain-maze-inner-chamber",
+    "name": {
+      "en": "Tyrian Maze (Inner Chamber) ",
+      "fr": "Le Cœur du Dédale Zinzolin"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 289,
+    "url": "https://soundcloud.com/chenipasta/glacier-palace-eastern-spire-pokemon-mystery-dungeon-gates-to-infinity",
+    "name": {
+      "en": "Glacier Palace (Eastern Spire) ",
+      "fr": "Palais de Glace - Tour Est"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 290,
+    "url": "https://soundcloud.com/pokedan-trash/glacier-palace-western-spire-pokemon-mystery-dungeon-gates-to-infinity",
+    "name": {
+      "en": "Glacier Palace (Western Spire) ",
+      "fr": "Palais de Glace - Tour Ouest"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 291,
+    "url": "https://soundcloud.com/xisiwib589/glacier-palace-great-spire",
+    "name": {
+      "en": "Glacier Palace (Great Spire) ",
+      "fr": "Palais de Glace - Tour du Cristal"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 292,
+    "url": "https://soundcloud.com/dafot16520/kyurems-grand-entrance",
+    "name": {
+      "en": "Guardian of Fate ",
+      "fr": "Le Protecteur du Destin"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 293,
+    "url": "https://soundcloud.com/xisiwib589/clash-with-kyurem",
+    "name": {
+      "en": "Clash with Kyurem! ",
+      "fr": "Kyurem ! Un combat prédestiné"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 294,
+    "url": "https://soundcloud.com/xisiwib589/desperation-hyper-heavy-arrangement-pokemon-mystery-dungeon-gates-to-infinity-ost",
+    "name": {
+      "en": "Despair: Super Heavy ",
+      "fr": "Désespoir - remix super heavy"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 295,
+    "url": "https://soundcloud.com/dafot16520/i-can-hear-it-too",
+    "name": {
+      "en": "I Can Hear It, Too... ",
+      "fr": "Je peux les entendre..."
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 296,
+    "url": "https://soundcloud.com/dafot16520/voice-of-support",
+    "name": {
+      "en": "Voices of Support ",
+      "fr": "Exhortations"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 297,
+    "url": "https://soundcloud.com/dafot16520/the-bittercold-first-battle",
+    "name": {
+      "en": "The Bittercold (First Battle) ",
+      "fr": "Escarmouche avec le Néant Gelé"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 298,
+    "url": "https://soundcloud.com/dafot16520/winds-of-despair",
+    "name": {
+      "en": "Winds of Despair ",
+      "fr": "Le Vent du Désespoir"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 299,
+    "url": "https://soundcloud.com/xisiwib589/bring-back-the-rainbows",
+    "name": {
+      "en": "Bring Back the Rainbows! ",
+      "fr": "Encore ! Vers les Arcs-en-ciel !"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 300,
+    "url": "https://soundcloud.com/rainos_u/vs-bittercold-pmd-gates-to-infinity",
+    "name": {
+      "en": "The Bittercold (Second Battle) ",
+      "fr": "Combat avec le Néant Gelé"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 301,
+    "url": "https://soundcloud.com/dafot16520/were-back-and-now",
+    "name": {
+      "en": "We're Back... And Now... ",
+      "fr": "Paysage familier, puis..."
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 302,
+    "url": "https://soundcloud.com/dafot16520/the-rainbows-of-hope",
+    "name": {
+      "en": "The Rainbows of Hope ",
+      "fr": "Les Arcs-en-ciel de l'Espoir"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 303,
+    "url": "https://soundcloud.com/xisiwib589/celebration-of-peace",
+    "name": {
+      "en": "Celebration of Peace ",
+      "fr": "La Paix Célébrée"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 304,
+    "url": "https://soundcloud.com/xisiwib589/a-home-to-remember",
+    "name": {
+      "en": "A Home to Remember ",
+      "fr": "Une maison pleine de Souvenirs"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 305,
+    "url": "https://soundcloud.com/dafot16520/wrapped-in-light-intro",
+    "name": {
+      "en": "Wrapped in Light (Intro) ",
+      "fr": "Nimbé de Lumière - intro"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 306,
+    "url": "https://soundcloud.com/dafot16520/wrapped-in-light",
+    "name": {
+      "en": "Wrapped in Light ",
+      "fr": "Nimbé de Lumière"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 307,
+    "url": "https://soundcloud.com/dafot16520/one-last-look-at-paradise",
+    "name": {
+      "en": "One Last Look at Paradise ",
+      "fr": "Dernier Regard sur Pokéden"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 308,
+    "url": "https://soundcloud.com/xisiwib589/even-if-you-forget-me",
+    "name": {
+      "en": "Even If You Forget Me ",
+      "fr": "Même si tu m'oublies..."
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 309,
+    "url": "https://soundcloud.com/dafot16520/the-frism",
+    "name": {
+      "en": "The Frism ",
+      "fr": "Frisme"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 310,
+    "url": "https://soundcloud.com/dafot16520/staff-roll",
+    "name": {
+      "en": "The End ",
+      "fr": "Thème de Fin"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 311,
+    "url": "https://soundcloud.com/xisiwib589/battling-legends",
+    "name": {
+      "en": "Battling Legends ",
+      "fr": "Combat de Légende"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 312,
+    "url": "https://soundcloud.com/dafot16520/infinite-dungeon-1",
+    "name": {
+      "en": "Unlimited Dungeon 1 ",
+      "fr": "Donjon Infini 1"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 313,
+    "url": "https://soundcloud.com/dafot16520/infinite-dungeon-2",
+    "name": {
+      "en": "Unlimited Dungeon 2 ",
+      "fr": "Donjon Infini 2"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 314,
+    "url": "https://soundcloud.com/dafot16520/infinite-dungeon-3",
+    "name": {
+      "en": "Unlimited Dungeon 3 ",
+      "fr": "Donjon Infini 3"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 315,
+    "url": "https://soundcloud.com/dafot16520/vision-of-ragged-mountain",
+    "name": {
+      "en": "Illusory Ragged Mountain ",
+      "fr": "Mont Bosselé (Illusion)"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 316,
+    "url": "https://soundcloud.com/dafot16520/vision-of-holehills",
+    "name": {
+      "en": "Illusory Holehills ",
+      "fr": "Monts Troglodytes (Illusion)"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 317,
+    "url": "https://soundcloud.com/dafot16520/vision-of-hazy-pass",
+    "name": {
+      "en": "Illusory Hazy Pass ",
+      "fr": "Col du Mirage (Illusion)"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 318,
+    "url": "https://soundcloud.com/dafot16520/sunken-trasure",
+    "name": {
+      "en": "Sunken Treasure ",
+      "fr": "Trésors Engloutis"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 319,
+    "url": "https://soundcloud.com/dafot16520/spin-the-v-wheel",
+    "name": {
+      "en": "Beartic Slide ",
+      "fr": "Hockey Polagriffe"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 320,
+    "url": "https://soundcloud.com/dafot16520/opening",
+    "name": {
+      "en": "Main Theme",
+      "fr": "Thème Principal"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 321,
+    "url": "https://soundcloud.com/dafot16520/title-sequence",
+    "name": {
+      "en": "Title Theme",
+      "fr": "Thème de l'Écran Titre"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 322,
+    "url": "https://soundcloud.com/dafot16520/pokemon-paradise-final",
+    "name": {
+      "en": "Pokémon Paradise: Final",
+      "fr": "Pokéden 3"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 323,
+    "url": "https://soundcloud.com/dafot16520/the-nightmare",
+    "name": {
+      "en": "An Eerie Chill",
+      "fr": "Un Froid Lugubre"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 324,
+    "url": "https://soundcloud.com/dafot16520/the-dream",
+    "name": {
+      "en": "To the Pokémon World",
+      "fr": "Vers le Monde des Pokémon !"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 325,
+    "url": "https://soundcloud.com/dafot16520/hydreigons-rescue",
+    "name": {
+      "en": "Into the Fray!",
+      "fr": "Dans la mêlée !"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 326,
+    "url": "https://soundcloud.com/xisiwib589/ending-prelude-hq-pokemon-mystery-dungeon-gates-to-infinity",
+    "name": {
+      "en": "The End (Intro)",
+      "fr": "Thème de fin - intro"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 327,
+    "url": "https://soundcloud.com/xisiwib589/closing-words",
+    "name": {
+      "en": "Epilogue",
+      "fr": "Épilogue"
+    },
+    "categoryId": 4
+  },
+  {
+    "id": 328,
+    "url": "https://soundcloud.com/rainos_u/super-pmd-001-pokemon-super-mystery-dungeon-main-theme",
+    "name": {
+      "en": "Main Theme ",
+      "fr": "Thème principal "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 329,
+    "url": "https://soundcloud.com/rainos_u/super-pmd-002-top-menu",
+    "name": {
+      "en": "Main Menu ",
+      "fr": "Menu principal "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 330,
+    "url": "https://soundcloud.com/ned_from_planes/welcome-to-the-world-of-pokemon",
+    "name": {
+      "en": "Welcome to the World of Pokémon! ",
+      "fr": "L'arrivée dans le monde Pokémon "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 331,
+    "url": "https://soundcloud.com/ned_from_planes/things-that-live-on-this-planet",
+    "name": {
+      "en": "Things That Live on This Planet ",
+      "fr": "Les habitants de ce monde "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 332,
+    "url": "https://soundcloud.com/ned_from_planes/why-all-of-a-sudden",
+    "name": {
+      "en": "Why, All of a Sudden?! ",
+      "fr": "Qu'est-ce qui leur prend ? "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 333,
+    "url": "https://soundcloud.com/ned_from_planes/open-pass",
+    "name": {
+      "en": "Open Pass ",
+      "fr": "Col de la Découverte "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 334,
+    "url": "https://soundcloud.com/ned_from_planes/lush-forest",
+    "name": {
+      "en": "Lush Forest ",
+      "fr": "Forêt Verdoyante "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 335,
+    "url": "https://soundcloud.com/widoyod332/at-just-such-a-moment",
+    "name": {
+      "en": "At Just Such a Moment ",
+      "fr": "Un moment de calme "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 336,
+    "url": "https://soundcloud.com/widoyod332/it-is-what-it-is",
+    "name": {
+      "en": "It Is What It Is... ",
+      "fr": "Tant pis... "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 337,
+    "url": "https://soundcloud.com/widoyod332/over-the-mountains",
+    "name": {
+      "en": "Over the Mountains ",
+      "fr": "De l'autre côté du col "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 338,
+    "url": "https://soundcloud.com/ned_from_planes/title-theme",
+    "name": {
+      "en": "Title Theme ",
+      "fr": "Thème de l'écran titre "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 339,
+    "url": "https://soundcloud.com/ned_from_planes/nuzleafs-house",
+    "name": {
+      "en": "Nuzleaf's House ",
+      "fr": "La maison de Pifeuil "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 340,
+    "url": "https://soundcloud.com/ned_from_planes/children-of-serene-village",
+    "name": {
+      "en": "Children of Serene Village ",
+      "fr": "Les enfants du village "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 341,
+    "url": "https://soundcloud.com/widoyod332/woah",
+    "name": {
+      "en": "Whoa! ",
+      "fr": "Ouh là là là ! "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 342,
+    "url": "https://soundcloud.com/ned_from_planes/serene-village",
+    "name": {
+      "en": "Serene Village ",
+      "fr": "Bourg Tranquille "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 343,
+    "url": "https://soundcloud.com/widoyod332/a-little-kerfuffle",
+    "name": {
+      "en": "A Little Kerfuffle ",
+      "fr": "Un léger problème "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 344,
+    "url": "https://soundcloud.com/ned_from_planes/foreboding-forest",
+    "name": {
+      "en": "Foreboding Forest ",
+      "fr": "Forêt Kifaipeur "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 345,
+    "url": "https://soundcloud.com/widoyod332/mysteries-within",
+    "name": {
+      "en": "Mysteries Within ",
+      "fr": "Dans les profondeurs "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 346,
+    "url": "https://soundcloud.com/widoyod332/lets-go-to-school",
+    "name": {
+      "en": "Let's Go to School! ",
+      "fr": "Allons à l'école ! "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 347,
+    "url": "https://soundcloud.com/widoyod332/the-way-home",
+    "name": {
+      "en": "The Way Home ",
+      "fr": "Le chemin du retour "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 348,
+    "url": "https://soundcloud.com/widoyod332/pancham-and-shelmet",
+    "name": {
+      "en": "Pancham and Shelmet ",
+      "fr": "Pandespiègle et Escargaume "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 349,
+    "url": "https://soundcloud.com/widoyod332/getting-scolded",
+    "name": {
+      "en": "Getting Scolded ",
+      "fr": "On s'est fait gronder... "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 350,
+    "url": "https://soundcloud.com/ned_from_planes/drilbur-coal-mine",
+    "name": {
+      "en": "Drilbur Coal Mine ",
+      "fr": "Mine Rototaupe "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 351,
+    "url": "https://soundcloud.com/widoyod332/the-coming-danger",
+    "name": {
+      "en": "The Coming Danger ",
+      "fr": "Menace oppressante "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 352,
+    "url": "https://soundcloud.com/lilipan/boss-battle-childrens-adventure-pokemon-super-mystery-dungeon",
+    "name": {
+      "en": "Boss Battle: Children's Adventure! ",
+      "fr": "Les gamins contre le boss ! "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 353,
+    "url": "https://soundcloud.com/ned_from_planes/treasure-within-your-heart",
+    "name": {
+      "en": "Treasure within Your Heart ",
+      "fr": "Votre cœur est un trésor "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 354,
+    "url": "https://soundcloud.com/lilacmonarch/pokemon-super-mystery-dungeon-ost-top-menu-theme",
+    "name": {
+      "en": "Partner's Theme ",
+      "fr": "Thème de la partenaire "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 355,
+    "url": "https://soundcloud.com/ned_from_planes/school-forest",
+    "name": {
+      "en": "School Forest ",
+      "fr": "Forêt Buissonnière "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 356,
+    "url": "https://soundcloud.com/ned_from_planes/during-an-adventure",
+    "name": {
+      "en": "During an Adventure ",
+      "fr": "En pleine aventure "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 357,
+    "url": "https://soundcloud.com/widoyod332/no-frustration-no-giving-up",
+    "name": {
+      "en": "No Frustration, No Giving Up ",
+      "fr": "On n'abandonnera jamais ! "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 358,
+    "url": "https://soundcloud.com/widoyod332/vice-principal-watchogs-theme",
+    "name": {
+      "en": "Vice Principal Watchog's Theme ",
+      "fr": "Thème de M. le proviseur Miradar "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 359,
+    "url": "https://soundcloud.com/widoyod332/glittering-mountain",
+    "name": {
+      "en": "Glittering Mountain ",
+      "fr": "Montagne Scintillante "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 360,
+    "url": "https://soundcloud.com/widoyod332/mellow",
+    "name": {
+      "en": "Mellow ",
+      "fr": "Baume au cœur "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 361,
+    "url": "https://soundcloud.com/widoyod332/with-big-heated-kindness",
+    "name": {
+      "en": "With Big-Hearted Kindness ",
+      "fr": "Placide et sympa "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 362,
+    "url": "https://soundcloud.com/widoyod332/what-to-do",
+    "name": {
+      "en": "What to Do... ",
+      "fr": "Que faire... ? "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 363,
+    "url": "https://soundcloud.com/widoyod332/just-where",
+    "name": {
+      "en": "Just Where?! ",
+      "fr": "Où sommes-nous ? "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 364,
+    "url": "https://soundcloud.com/ned_from_planes/nectar-meadow",
+    "name": {
+      "en": "Nectar Meadow ",
+      "fr": "Plaine Nectar "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 365,
+    "url": "https://soundcloud.com/widoyod332/wandering-ampharos",
+    "name": {
+      "en": "Wandering Ampharos ",
+      "fr": "Pharamp le vagabond "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 366,
+    "url": "https://soundcloud.com/tear-9/pokemon-super-mystery-dungeon-ost-poliwrath-river",
+    "name": {
+      "en": "Poliwrath River ",
+      "fr": "Rivière Tartard "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 367,
+    "url": "https://soundcloud.com/widoyod332/expedition-society-crown",
+    "name": {
+      "en": "Expedition Society Crown ",
+      "fr": "La valeur des Grands Explorateurs "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 368,
+    "url": "https://soundcloud.com/ned_from_planes/quiet-night",
+    "name": {
+      "en": "Quiet Night ",
+      "fr": "Une nuit tranquille "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 369,
+    "url": "https://soundcloud.com/widoyod332/schools-rumors-at-night",
+    "name": {
+      "en": "School's Rumors at Night ",
+      "fr": "La nuit tombe sur l'école "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 370,
+    "url": "https://soundcloud.com/widoyod332/on-patrol-at-the-school",
+    "name": {
+      "en": "On Patrol at the School ",
+      "fr": "Ronde vigilante autour de l'école "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 371,
+    "url": "https://soundcloud.com/widoyod332/so-hot",
+    "name": {
+      "en": "So Hot... ",
+      "fr": "Qu'est-ce qu'il fait chaud ! "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 372,
+    "url": "https://soundcloud.com/widoyod332/terrifying-shadow",
+    "name": {
+      "en": "Terrifying Shadow ",
+      "fr": "Une ombre terrifiante "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 373,
+    "url": "https://soundcloud.com/widoyod332/pale-flame",
+    "name": {
+      "en": "Pale Flame ",
+      "fr": "Les flammes bleues "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 374,
+    "url": "https://soundcloud.com/ned_from_planes/ancient-burrow",
+    "name": {
+      "en": "Ancient Barrow ",
+      "fr": "Ossuaire Antique "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 375,
+    "url": "https://soundcloud.com/loyal-laughter/pokemon-super-mystery-dungeon-ost-partners-theme-music-box",
+    "name": {
+      "en": "Partner's Theme: Music Box ",
+      "fr": "Thème de la partenaire - carillon "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 376,
+    "url": "https://soundcloud.com/ned_from_planes/revelation-mountain",
+    "name": {
+      "en": "Revelation Mountain ",
+      "fr": "Mont des Révélations "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 377,
+    "url": "https://soundcloud.com/rainos_u/super-pmd-050-children-came-to-see-us",
+    "name": {
+      "en": "Children Came to See Us Off... ",
+      "fr": "Les enfants disent adieu "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 378,
+    "url": "https://soundcloud.com/rainos_u/super-pmd-051-time-to-set-out",
+    "name": {
+      "en": "Time to Set Out ",
+      "fr": "Le départ ! "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 379,
+    "url": "https://soundcloud.com/user-354110536/pokemon-super-mystery-dungeon-sheer-mountain-range",
+    "name": {
+      "en": "Sheer Mountain Range ",
+      "fr": "Massif Escarpé "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 380,
+    "url": "https://soundcloud.com/ned_from_planes/gentle-slope-cave",
+    "name": {
+      "en": "Gentle Slope Cave ",
+      "fr": "Grotte Pentedouce "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 381,
+    "url": "https://soundcloud.com/user-603582262/pokemon-super-mystery-dungeon-lively-town",
+    "name": {
+      "en": "Lively Town ",
+      "fr": "Loliloville "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 382,
+    "url": "https://soundcloud.com/ned_from_planes/onward-expedition-society",
+    "name": {
+      "en": "Onward, Expedition Society! ",
+      "fr": "En avant, Grands Explorateurs ! "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 383,
+    "url": "https://soundcloud.com/rainos_u/super-pmd-056-expedition-society-music-box",
+    "name": {
+      "en": "Expedition Society: Music Box ",
+      "fr": "Grands Explorateurs - carillon "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 384,
+    "url": "https://soundcloud.com/vexxodan-otaku-gamer/pokemon-super-mystery-dungeon-ost-legendary-boss-battle-rock-version-192kbit",
+    "name": {
+      "en": "Legendary Boss Battle: Rock Version! ",
+      "fr": "Un boss légendaire - rock "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 385,
+    "url": "https://soundcloud.com/ned_from_planes/air-continent-baram-town",
+    "name": {
+      "en": "Air Continent: Baram Town ",
+      "fr": "Param-les-Vents "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 386,
+    "url": "https://soundcloud.com/freezer753/pokemon-super-mystery-dungeon-ost-echoes-of-the-mystical-forest",
+    "name": {
+      "en": "Echoes of the Mystical Forest ",
+      "fr": "Forêt Mystique "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 387,
+    "url": "https://soundcloud.com/ned_from_planes/mystery-of-fossils",
+    "name": {
+      "en": "Mystery of Fossils ",
+      "fr": "Le mystère de la pétrification "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 388,
+    "url": "https://soundcloud.com/widoyod332/the-coming-danger-arangement-1",
+    "name": {
+      "en": "The Coming Danger: Arrangement 1 ",
+      "fr": "Menace oppressante - remix "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 389,
+    "url": "https://soundcloud.com/widoyod332/resilience-of-the-expedition-society",
+    "name": {
+      "en": "Resilience of the Expedition Society ",
+      "fr": "La fierté des Grands Explorateurs "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 390,
+    "url": "https://soundcloud.com/decabat/fire-island-volcano",
+    "name": {
+      "en": "Fire Island Volcano ",
+      "fr": "Volcan de l'Île de Feu "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 391,
+    "url": "https://soundcloud.com/lilacmonarch/pokemon-super-mystery-1",
+    "name": {
+      "en": "Boss Battle: Expedition Society Fight ",
+      "fr": "Les Explorateurs contre un boss ! "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 392,
+    "url": "https://soundcloud.com/ned_from_planes/the-mystery-of-the-scarf-evolution",
+    "name": {
+      "en": "The Mystery of the Scarf! Evolution! ",
+      "fr": "Le secret du foulard ! "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 393,
+    "url": "https://soundcloud.com/ned_from_planes/power-of-evolution",
+    "name": {
+      "en": "Power of Evolution ",
+      "fr": "La force de l'évolution "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 394,
+    "url": "https://soundcloud.com/karninecrow/pokemon-super-mystery-dungeon",
+    "name": {
+      "en": "Showdown with a Volcanic Entei! ",
+      "fr": "Combat contre Entei du volcan ! "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 395,
+    "url": "https://soundcloud.com/widoyod332/things-happening-in-this-world",
+    "name": {
+      "en": "Things Happening in This World ",
+      "fr": "Ce qu'il se passe dans ce monde "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 396,
+    "url": "https://soundcloud.com/widoyod332/feelings-of-the-expedition-society",
+    "name": {
+      "en": "Feelings of the Expedition Society ",
+      "fr": "Grands Explorateurs, ensemble ! "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 397,
+    "url": "https://soundcloud.com/widoyod332/showdown-mountain",
+    "name": {
+      "en": "Showdown Mountain ",
+      "fr": "Col de la Grande Bataille "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 398,
+    "url": "https://soundcloud.com/ned_from_planes/mysteries-within-arangement-1",
+    "name": {
+      "en": "Mysteries Within: Arrangement 1 ",
+      "fr": "Dans les profondeurs - remix 1 "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 399,
+    "url": "https://soundcloud.com/widoyod332/oh-no-this-is-bad",
+    "name": {
+      "en": "Oh No! This Is Bad! ",
+      "fr": "C'est terrible ! "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 400,
+    "url": "https://soundcloud.com/ned_from_planes/ancient-letters-left-behind",
+    "name": {
+      "en": "Ancient Letters Left Behind. ",
+      "fr": "Les inscriptions antiques "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 401,
+    "url": "https://soundcloud.com/ned_from_planes/something-is-amiss",
+    "name": {
+      "en": "Something Is Amiss... ",
+      "fr": "Quelque chose de bizarre "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 402,
+    "url": "https://soundcloud.com/ned_from_planes/suprise-attack-yveltal",
+    "name": {
+      "en": "Surprise Attack: Yveltal! ",
+      "fr": "À l'attaque d'Yveltal "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 403,
+    "url": "https://soundcloud.com/widoyod332/a-warning-to-all-pokemon",
+    "name": {
+      "en": "A Warning to All Pokémon! ",
+      "fr": "Pokémon du monde entier ! "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 404,
+    "url": "https://soundcloud.com/ned_from_planes/voidlands",
+    "name": {
+      "en": "Voidlands ",
+      "fr": "Le Monde du Néant "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 405,
+    "url": "https://soundcloud.com/garagewolf/856464-abyssal-badlands",
+    "name": {
+      "en": "Abyssal Badlands ",
+      "fr": "Lande du Non-Retour "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 406,
+    "url": "https://soundcloud.com/brandon-dolan-401290371/pokemon-super-mystery-dungeon-ost-within-the-sadness",
+    "name": {
+      "en": "Within the Sadness ",
+      "fr": "Aux tréfonds de la tristesse "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 407,
+    "url": "https://soundcloud.com/ned_from_planes/cave-of-the-deep",
+    "name": {
+      "en": "Cave of the Deep ",
+      "fr": "Caverne des Abysses "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 408,
+    "url": "https://soundcloud.com/ned_from_planes/calm-craggy-area",
+    "name": {
+      "en": "Calm Craggy Area ",
+      "fr": "Pic Tranquille "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 409,
+    "url": "https://soundcloud.com/widoyod332/void-shadows",
+    "name": {
+      "en": "Void Shadows ",
+      "fr": "Les Ombres du Néant "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 410,
+    "url": "https://soundcloud.com/widoyod332/a-trio-of-sacred-legends",
+    "name": {
+      "en": "A Trio of Sacred Legends ",
+      "fr": "Les trois fauves légendaires "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 411,
+    "url": "https://soundcloud.com/lilacmonarch/pokemon-super-mystery-3",
+    "name": {
+      "en": "Reverse Mountain ",
+      "fr": "Mont Terrociel "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 412,
+    "url": "https://soundcloud.com/widoyod332/mysteries-within-arangement-2",
+    "name": {
+      "en": "Mysteries Within: Arrangement 2 ",
+      "fr": "Dans les profondeurs - remix 2 "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 413,
+    "url": "https://soundcloud.com/rainos_u/super-pmd-086-resolve-legendary-trio",
+    "name": {
+      "en": "Resolve of a Legendary Trio ",
+      "fr": "La résolution des fauves "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 414,
+    "url": "https://soundcloud.com/rainos_u/super-pmd-087-entrusted-hope",
+    "name": {
+      "en": "Entrusted Hope ",
+      "fr": "Leur espoir entre vos mains "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 415,
+    "url": "https://soundcloud.com/ned_from_planes/depths-of-the-submerged-cave",
+    "name": {
+      "en": "Depths of the Submerged Cave ",
+      "fr": "Caverne Sous-Marine "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 416,
+    "url": "https://soundcloud.com/rainos_u/super-pmd-089-prehistoric-ruins",
+    "name": {
+      "en": "Prehistoric Ruins ",
+      "fr": "Ruines Antiques "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 417,
+    "url": "https://soundcloud.com/ned_from_planes/the-secret-of-the-lost-memory",
+    "name": {
+      "en": "The Secret of the Lost Memory ",
+      "fr": "Le secret de l'amnésie "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 418,
+    "url": "https://soundcloud.com/ned_from_planes/tree-of-life-island-of-the-south",
+    "name": {
+      "en": "Tree of Life: Island of the South ",
+      "fr": "L'Arbre de Vie - Île du Sud "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 419,
+    "url": "https://soundcloud.com/rainos_u/super-pmd-092-road-to-primeval-forest",
+    "name": {
+      "en": "Road to Primeval Forest ",
+      "fr": "Route de la Forêt Initiale "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 420,
+    "url": "https://soundcloud.com/ned_from_planes/withered-tree-of-life",
+    "name": {
+      "en": "Withered Tree of Life ",
+      "fr": "L'Arbre de Vie desséché "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 421,
+    "url": "https://soundcloud.com/lilacmonarch/pokemon-super-mystery",
+    "name": {
+      "en": "Fight with Yveltal and Others! ",
+      "fr": "La bataille d'Yveltal "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 422,
+    "url": "https://soundcloud.com/rainos_u/super-pmd-095-reach",
+    "name": {
+      "en": "Make It! ",
+      "fr": "C'est maintenant ! "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 423,
+    "url": "https://soundcloud.com/widoyod332/we-can-fly",
+    "name": {
+      "en": "We Can Fly! ",
+      "fr": "Nous volons ! "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 424,
+    "url": "https://soundcloud.com/widoyod332/power-of-pokemon",
+    "name": {
+      "en": "Power of Pokémon ",
+      "fr": "La force des Pokémon "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 425,
+    "url": "https://soundcloud.com/aero-micajah/tree-of-life-roots",
+    "name": {
+      "en": "Tree of Life: Roots ",
+      "fr": "Mille Racines "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 426,
+    "url": "https://soundcloud.com/chenipasta/pokemon-super-mystery-dungeon-ost-tree-of-life-trunk",
+    "name": {
+      "en": "Tree of Life: Trunk ",
+      "fr": "Tronc Lumineux "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 427,
+    "url": "https://soundcloud.com/widoyod332/well-definitely-take-you-down",
+    "name": {
+      "en": "We'll Definitely... Take You Down! ",
+      "fr": "On va gagner ! Je le promets ! "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 428,
+    "url": "https://soundcloud.com/rainos_u/super-pmd-101-dark-matter-first",
+    "name": {
+      "en": "First Dark Matter Battle ",
+      "fr": "Matière Noire - 1er combat "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 429,
+    "url": "https://soundcloud.com/widoyod332/dark-matter-reborn",
+    "name": {
+      "en": "Dark Matter Reborn! ",
+      "fr": "La Matière Noire se régénère "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 430,
+    "url": "https://soundcloud.com/widoyod332/even-if-youre-weak-struggle",
+    "name": {
+      "en": "Even if You're Weak, Struggle! ",
+      "fr": "Jusqu'au bout de nos forces "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 431,
+    "url": "https://soundcloud.com/widoyod332/mysteries-within-arangement-3",
+    "name": {
+      "en": "Mysteries Within: Arrangement 3 ",
+      "fr": "Dans les profondeurs - remix 3 "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 432,
+    "url": "https://soundcloud.com/ned_from_planes/dont-give-up",
+    "name": {
+      "en": "Don't Give Up ",
+      "fr": "N'abandonnez pas ! "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 433,
+    "url": "https://soundcloud.com/lilacmonarch/pokemon-super-mystery-dungeon",
+    "name": {
+      "en": "Second Dark Matter Battle ",
+      "fr": "Matière Noire - 2e combat "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 434,
+    "url": "https://soundcloud.com/widoyod332/a-bad-feeling-that-wont-go-away",
+    "name": {
+      "en": "A Bad Feeling That Won't Go Away ",
+      "fr": "La négativité est éternelle "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 435,
+    "url": "https://soundcloud.com/widoyod332/wh-where-am-i",
+    "name": {
+      "en": "Wh-where Am I...? ",
+      "fr": "Où... où suis-je ? "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 436,
+    "url": "https://soundcloud.com/widoyod332/tree-of-life-revived",
+    "name": {
+      "en": "Tree of Life Revived! ",
+      "fr": "L'Arbre de Vie ressuscite ! "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 437,
+    "url": "https://soundcloud.com/widoyod332/rejoice-the-world-is-saved",
+    "name": {
+      "en": "Rejoice, the World Is Saved! ",
+      "fr": "Le monde a été sauvé ! "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 438,
+    "url": "https://soundcloud.com/rainos_u/super-pmd-111-heading-home-to-serene-village",
+    "name": {
+      "en": "Heading Home to Serene Village ",
+      "fr": "Rentrons au Bourg Tranquille "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 439,
+    "url": "https://soundcloud.com/widoyod332/welcome-home-and-thanks",
+    "name": {
+      "en": "Welcome Home and Thanks! ",
+      "fr": "Bon retour ! Et merci ! "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 440,
+    "url": "https://soundcloud.com/rainos_u/super-pmd-113-wrapped-in-light",
+    "name": {
+      "en": "Enveloped in Light... ",
+      "fr": "Nimbée de lumière... "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 441,
+    "url": "https://soundcloud.com/rainos_u/114-time-for-farewell",
+    "name": {
+      "en": "Time to Part Ways ",
+      "fr": "La séparation "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 442,
+    "url": "https://soundcloud.com/rainos_u/super-pmd-115-ending",
+    "name": {
+      "en": "The End ",
+      "fr": "Thème de fin "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 443,
+    "url": "https://soundcloud.com/rainos_u/super-pmd-116-epilogue",
+    "name": {
+      "en": "Epilogue ",
+      "fr": "Épilogue "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 444,
+    "url": "https://soundcloud.com/ned_from_planes/grass-continent-capim-town",
+    "name": {
+      "en": "Grass Continent: Capim Town ",
+      "fr": "Capim-les-Champs "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 445,
+    "url": "https://soundcloud.com/ned_from_planes/pokemon-super-mystery-dungeon-ost-mist-continent-noe-town",
+    "name": {
+      "en": "Mist Continent: Noe Town ",
+      "fr": "Noé-la-Brume "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 446,
+    "url": "https://soundcloud.com/widoyod332/sand-continent-sahra-town",
+    "name": {
+      "en": "Sand Continent: Sahra Town ",
+      "fr": "Ramal-les-Sables "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 447,
+    "url": "https://soundcloud.com/widoyod332/whispers-of-the-forests-and-mountains",
+    "name": {
+      "en": "Whispers of the Forests and Mountains ",
+      "fr": "Murmures des monts et forêts "
+    },
+    "categoryId": 5
+  },
+  {
+    "id": 448,
     "url": "https://soundcloud.com/persona5royal/top-menu-pokemon-mystery",
     "name": {
       "en": "Top Menu",
-      "fr" : "Menu principal "
+      "fr": "Menu principal "
     },
-    "categoryId": 1
-  } 
+    "categoryId": 6
+  },
+  {
+    "id": 449,
+    "url": "https://soundcloud.com/widoyod332/title-screen",
+    "name": {
+      "en": "Pokemon Rescue Team Theme",
+      "fr": "Pokémon Équipe de secours – Thème"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 450,
+    "url": "https://soundcloud.com/widoyod332/intro",
+    "name": {
+      "en": "Opening",
+      "fr": "Introduction"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 451,
+    "url": "https://soundcloud.com/persona5royal/welcome-to-the-world-of",
+    "name": {
+      "en": "In a Dream",
+      "fr": "Dans un rêve"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 452,
+    "url": "https://soundcloud.com/persona5royal/meeting-with-a-partner-pokemon",
+    "name": {
+      "en": "Meeting with a Partner",
+      "fr": "Rencontre avec un Partenaire"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 453,
+    "url": "https://soundcloud.com/persona5royal/theres-trouble-pokemon-mystery",
+    "name": {
+      "en": "There's Trouble!",
+      "fr": "Il y a du Grabuge !"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 454,
+    "url": "https://soundcloud.com/persona5royal/tiny-woods-pokemon-mystery",
+    "name": {
+      "en": "Tiny Woods",
+      "fr": "Petit Bois"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 455,
+    "url": "https://soundcloud.com/persona5royal/in-the-depths-of-the-pit",
+    "name": {
+      "en": "In the Depths of the Pit",
+      "fr": "Dans les Profondeurs"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 456,
+    "url": "https://soundcloud.com/persona5royal/job-clear-pokemon-mystery",
+    "name": {
+      "en": "Job Clear!",
+      "fr": "Mission accomplie! "
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 457,
+    "url": "https://soundcloud.com/persona5royal/rescue-base-pokemon-mystery",
+    "name": {
+      "en": "At the Rescue Base",
+      "fr": "À la Base Équipe"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 458,
+    "url": "https://soundcloud.com/persona5royal/thunderwave-cave-pokemon",
+    "name": {
+      "en": "Thunderwave Cave",
+      "fr": "Grotte Éclair"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 459,
+    "url": "https://soundcloud.com/persona5royal/pokemon-square-pokemon-mystery",
+    "name": {
+      "en": "Pokémon Square ",
+      "fr": "Place Pokémon"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 460,
+    "url": "https://soundcloud.com/persona5royal/makuhita-dojo-pokemon-mystery",
+    "name": {
+      "en": "Makuhita Dojo",
+      "fr": "Dojo Makuhita"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 461,
+    "url": "https://soundcloud.com/widoyod332/during-an-adventure",
+    "name": {
+      "en": "During an Adventure",
+      "fr": "En pleine aventure "
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 462,
+    "url": "https://soundcloud.com/widoyod332/pokemon-square-short-intro",
+    "name": {
+      "en": "Rescue Team Camp",
+      "fr": "Camp de Secours"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 463,
+    "url": "https://soundcloud.com/user-671569924/mt-steel-pokemon-mystery",
+    "name": {
+      "en": "Mt. Steel",
+      "fr": "Mont Acier"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 464,
+    "url": "https://soundcloud.com/persona5royal/kecleon-shop-pokemon-mystery",
+    "name": {
+      "en": "Kecleon Shop",
+      "fr": "Magasin Kecleon"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 465,
+    "url": "https://soundcloud.com/persona5royal/thief-pokemon-mystery-dungeon",
+    "name": {
+      "en": "It's a Thief! ",
+      "fr": "Au Voleur !"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 466,
+    "url": "https://soundcloud.com/user-671569924/boss-battle-pokemon-mystery",
+    "name": {
+      "en": "Boss Battle!",
+      "fr": "Combat de chefs! "
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 467,
+    "url": "https://soundcloud.com/xisiwib589/puzzling",
+    "name": {
+      "en": "Puzzling...",
+      "fr": "Déroutant"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 468,
+    "url": "https://soundcloud.com/connyhunting/oddity-cave-gates-to-infinity-medley-pokemon-mystery-dungeon-rescue-team-dx",
+    "name": {
+      "en": "Oddity Cave / Gates to Infinity Medley",
+      "fr": "Grotte Périls / Medley Portes de l’Infini"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 469,
+    "url": "https://soundcloud.com/xisiwib589/sinister-woods",
+    "name": {
+      "en": "Sinister Woods",
+      "fr": "Bois Sinistre"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 470,
+    "url": "https://soundcloud.com/xisiwib589/danger-theres-trouble",
+    "name": {
+      "en": "Rising Fear",
+      "fr": "Peur croissante "
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 471,
+    "url": "https://soundcloud.com/xisiwib589/silent-chasm",
+    "name": {
+      "en": "Silent Chasm",
+      "fr": "Val Silencieux"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 472,
+    "url": "https://soundcloud.com/xisiwib589/mt-thunder",
+    "name": {
+      "en": "Mt. Thunder",
+      "fr": "Mont Foudre"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 473,
+    "url": "https://soundcloud.com/xisiwib589/mt-thunder-peak",
+    "name": {
+      "en": "Mt. Thunder Peak",
+      "fr": "Mont Foudre - Sommet"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 474,
+    "url": "https://soundcloud.com/xisiwib589/great-canyon",
+    "name": {
+      "en": "Great Canyon ",
+      "fr": "Grand Ravin"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 475,
+    "url": "https://soundcloud.com/xisiwib589/the-legend-of-ninetales",
+    "name": {
+      "en": "The Legend of Ninetales",
+      "fr": "La Légende de Feunard"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 476,
+    "url": "https://soundcloud.com/xisiwib589/run-away-fugitives",
+    "name": {
+      "en": "The Escape ",
+      "fr": "La Fuite"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 477,
+    "url": "https://soundcloud.com/user-181229711/lapis-cave-pokemon-mystery",
+    "name": {
+      "en": "Lapis Cave",
+      "fr": "Grotte Lapis"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 478,
+    "url": "https://soundcloud.com/xisiwib589/mt-blaze",
+    "name": {
+      "en": "Mt. Blaze",
+      "fr": "Mont Ardent"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 479,
+    "url": "https://soundcloud.com/xisiwib589/mt-blaze-peak",
+    "name": {
+      "en": "Mt. Blaze Peak",
+      "fr": "Mont Ardent - Sommet"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 480,
+    "url": "https://soundcloud.com/xisiwib589/escape-through-the-snow",
+    "name": {
+      "en": "Escape Through the Snow ",
+      "fr": "La Fuite à travers la Neige"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 481,
+    "url": "https://soundcloud.com/xisiwib589/frosty-grotto",
+    "name": {
+      "en": "Frosty Grotto",
+      "fr": "Forêt Givrée - Fond"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 482,
+    "url": "https://soundcloud.com/xisiwib589/gardevoir-appears-benevolent",
+    "name": {
+      "en": "Gardevoir Inside of a Dream",
+      "fr": "Gardevoir dans un Rêve"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 483,
+    "url": "https://soundcloud.com/xisiwib589/mt-freeze",
+    "name": {
+      "en": "Mt. Freeze",
+      "fr": "Mont Glacial"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 484,
+    "url": "https://soundcloud.com/xisiwib589/mt-freeze-peak",
+    "name": {
+      "en": "Mt. Freeze Peak",
+      "fr": "Mont Glacial - Sommet"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 485,
+    "url": "https://soundcloud.com/persona5royal/its-a-monster-house-pokemon",
+    "name": {
+      "en": "Monster House!",
+      "fr": "Maison de monstres !"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 486,
+    "url": "https://soundcloud.com/xisiwib589/magma-cavern",
+    "name": {
+      "en": "Magma Cavern",
+      "fr": "Mine Magma"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 487,
+    "url": "https://soundcloud.com/xisiwib589/magma-cavern-pit",
+    "name": {
+      "en": "Magma Cavern Pit",
+      "fr": "Mine Magma - Fond"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 488,
+    "url": "https://soundcloud.com/rusty-o-colrz/official-ost-world-calamity",
+    "name": {
+      "en": "World Calamity",
+      "fr": "Catastrophe Naturelle"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 489,
+    "url": "https://soundcloud.com/xisiwib589/dream-eater",
+    "name": {
+      "en": "Dream Eater",
+      "fr": "Dévorêve"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 490,
+    "url": "https://soundcloud.com/the-crafty-army/sky-tower-pokemon-mystery-dungeon-rescue-team-dx-ost",
+    "name": {
+      "en": "Sky Tower ",
+      "fr": "Tour Céleste"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 491,
+    "url": "https://soundcloud.com/xisiwib589/sky-tower-summit",
+    "name": {
+      "en": "Sky Tower Summit",
+      "fr": "Tour Céleste - Sommet"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 492,
+    "url": "https://soundcloud.com/xisiwib589/defy-the-legends-vs-rayquaza",
+    "name": {
+      "en": "Defy the Legends ",
+      "fr": "Défi de légende "
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 493,
+    "url": "https://soundcloud.com/xisiwib589/the-other-side",
+    "name": {
+      "en": "The Other Side",
+      "fr": "L’Au delà"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 494,
+    "url": "https://soundcloud.com/xisiwib589/run-away-fugitives-variation",
+    "name": {
+      "en": "The Escape (Variation)",
+      "fr": "La Fuite (Variations)"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 495,
+    "url": "https://soundcloud.com/xisiwib589/aftermath",
+    "name": {
+      "en": "Protected World Peace",
+      "fr": "L’équilibre du monde Rétablit"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 496,
+    "url": "https://soundcloud.com/xisiwib589/parting-farewell",
+    "name": {
+      "en": "Time for Farewell...",
+      "fr": "Le Temps des Adieux"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 497,
+    "url": "https://soundcloud.com/jarrettkills/staff-roll-credits-pokemon-mystery-dungeon-rescue-team-dx",
+    "name": {
+      "en": "Staff Roll",
+      "fr": "Générique de Fin"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 498,
+    "url": "https://soundcloud.com/xisiwib589/time-of-reunion",
+    "name": {
+      "en": "Time of Reunion",
+      "fr": "Temps de Retrouvailles"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 499,
+    "url": "https://soundcloud.com/xisiwib589/stormy-sea",
+    "name": {
+      "en": "Stormy Sea",
+      "fr": "Mer Houleuse"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 500,
+    "url": "https://soundcloud.com/xisiwib589/buried-relic",
+    "name": {
+      "en": "Buried Relic / A New Adventure",
+      "fr": "Ruines Enfouies / Une Nouvelle Aventure"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 501,
+    "url": "https://soundcloud.com/xisiwib589/at-just-such-a-moment",
+    "name": {
+      "en": "At Just Such a Moment",
+      "fr": "Un moment de calme "
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 502,
+    "url": "https://soundcloud.com/persona5royal/friend-area-grasslands-pokemon",
+    "name": {
+      "en": "Rescue Team Camp ~ Field (Beau Plains/Sacred Field/Mt. Cleft/Scorched Plains/Wild Plains)",
+      "fr": "Camps de Secourisme ~ Plaines (Plaine de Beauté/Terres Sacrées/Mont Escarpé/Plaines Brûlées/Plaines Sauvages)"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 503,
+    "url": "https://soundcloud.com/xisiwib589/friend-area-steppe",
+    "name": {
+      "en": "Rescue Team Camp ~ Steppe (Sky Blue Plains/Mt. Green/Safari)",
+      "fr": "Camps de Secourisme ~ Steppe (Plateau Azur/Mont Verdoyant/Savane)"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 504,
+    "url": "https://soundcloud.com/xisiwib589/friend-area-forest",
+    "name": {
+      "en": "Rescue Team Camp ~ Forest (Stump Forest/Flyaway Forest/Overgrown Forest/Vibrant Forest/Mt. Moonview/Mushroom Forest/Evolution Forest/Secretive Forest)",
+      "fr": "Camps de Secourisme ~ Forêt (Bois des Brumes/Forêt de l'Essor/Océan de Verdure/Bois Dynamique/Mont Clair de Lune/Bois Champignon/Bois Morphing/Bois Occulte)"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 505,
+    "url": "https://soundcloud.com/xisiwib589/friend-area-wilds",
+    "name": {
+      "en": "Rescue Team Camp ~ Wilds (Mt. Discipline/Jungle/Ravaged Field/Magnetic Quarry/Thunder Meadow/Withering Desert)",
+      "fr": "Camps de Secourisme ~ Aride (Mont Exigence/Jungle/Terres Arides/Grotte Magnétique/Plateau Orageux/Désert Fournaise)"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 506,
+    "url": "https://soundcloud.com/xisiwib589/friend-area-swamp",
+    "name": {
+      "en": "Rescue Team Camp ~ Swamp (Darkness Ridge/Gourd Swamp/Poison Swamp)",
+      "fr": "Camps de Secourisme ~ Marais (Col Ténébreux/Marais Roseaux/Marais Venimeux)"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 507,
+    "url": "https://soundcloud.com/xisiwib589/friend-area-pond",
+    "name": {
+      "en": "Rescue Team Camp ~ Pond (Rub-a-dub River/Turtleshell Pond/Shallow Beach/Waterfall Lake/Tadpole Pond)",
+      "fr": "Camps de Secourisme ~ Mare (Rivière Glouglou/Mare Carapace/Plage Sablefin/Lac Cascade/Mare aux Têtards)"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 508,
+    "url": "https://soundcloud.com/xisiwib589/friend-area-lab",
+    "name": {
+      "en": "Rescue Team Camp ~ Lab (Decrepit Lab/Power Plant)",
+      "fr": "Camps de Secourisme ~ Laboratoire (Laboratoire Abandonné/Centrale)"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 509,
+    "url": "https://soundcloud.com/xisiwib589/friend-area-oceanic",
+    "name": {
+      "en": "Rescue Team Camp ~ Oceanic (Frigid Cavern/Mystic Lake/Ice Floe Beach/Bountiful Sea/Serene Sea/Treasure Sea/Deepsea Floor)",
+      "fr": "Camps de Secourisme ~ Océanique (Caverne de Glace/Lac Mystique/Banquise/Mer Prospérité/Mer Sérénité/Mer aux Trésors/Fonds Marins)"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 510,
+    "url": "https://soundcloud.com/xisiwib589/friend-area-caves",
+    "name": {
+      "en": "Rescue Team Camp ~ Caves (Echo Cave/Dragon Cave/Boulder Cave/Crater/Ancient Relic/Aged Chambers)",
+      "fr": "Camps de Secourisme ~ Grottes (Grotte Échos/Grotte Dragon/Grotte Rocheuse/Cratère/Ruines Antiques/Temples Ancien)"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 511,
+    "url": "https://soundcloud.com/xisiwib589/at-the-end-of-the-road-2",
+    "name": {
+      "en": "In the Depths of the Pit ~ Remix 2",
+      "fr": "Dans les Profondeurs ~ Remix 2"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 512,
+    "url": "https://soundcloud.com/xisiwib589/at-the-end-of-the-road-1",
+    "name": {
+      "en": "In the Depths of the Pit ~ Remix 3",
+      "fr": "Dans les Profondeurs ~ Remix 3"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 513,
+    "url": "https://soundcloud.com/xisiwib589/at-the-end-of-the-road-version",
+    "name": {
+      "en": "In the Depths of the Pit ~ Remix 4",
+      "fr": "Dans les Profondeurs ~ Remix 4"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 514,
+    "url": "https://soundcloud.com/xisiwib589/danger-theres-trouble-2",
+    "name": {
+      "en": "Rising Fear ~ Remix 2",
+      "fr": "Peur croissante ~ Remix 2"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 515,
+    "url": "https://soundcloud.com/xisiwib589/danger-theres-trouble-1",
+    "name": {
+      "en": "Rising Fear ~ Remix 3",
+      "fr": "Peur croissante ~ Remix 3"
+    },
+    "categoryId": 6
+  },
+  {
+    "id": 516,
+    "url": "https://soundcloud.com/xisiwib589/danger-theres-trouble-version",
+    "name": {
+      "en": "Rising Fear ~ Remix 4",
+      "fr": "Peur croissante ~ Remix 4"
+    },
+    "categoryId": 6
+  }
 ]

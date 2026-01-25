@@ -1,11 +1,11 @@
 {
-  "heardleName": "React",
+  "heardleName": "Pokémon Donjon Mystère",
   "title": "$t(heardleName) Heardle",
   "infiniteTitle": "$t(heardleName) Heardle Infini",
   "header": {
     "infos": {
       "title": "À propos",
-      "text": "<p>Un jeu Heardle réalisé avec React.</p><p>Pour créer votre propre Heardle, allez voir <a href=\"https://github.com/prateau-base/heardle-react\">ici</a></p>",
+      "text": "<p>Un jeu Heardle avec les musiques de Pokémon Donjon Mystère.</p><p>Chaque musique est choisie au hasard dans la bande originale du jeu Pokémon Donjon Mystère.</p><p>Les musiques sont répertoriées avec le nom des jeux dans lesquels elles figurent. Vous pouvez effectuer une recherche par noms de versions appariées, comme \"Équipe de Secours Rouge / Bleue\" ou \"Les Portes de l’Infini\".</p><p>Les noms des musiques proviennent si possibles des noms officiels dans les jeux (les jukeboxes) et sinon des traductions des noms anglais officieux de ces musiques. N'hésitez pas à me proposer de meilleures traductions pour Pokémon Équipe de Secours Rouge / Bleue, Les aventures du Feu / Lumière / Tempête et Équipe de Secours DX !</p><p>Pour créer votre propre Heardle, allez voir <a href=\"https://github.com/prateau-base/heardle-react\">ici</a></p>",
       "subText": "Basé sur <a href=\"https://github.com/prateau-base/heardle-react\">heardle react</a>"
     },
     "about": {
@@ -74,7 +74,7 @@
       "win_one": "Vous avez trouvé la musique $t(heardleName) d'aujourd'hui en {{count}} seconde.",
       "win_other": "Vous avez trouvé la musique $t(heardleName) d'aujourd'hui en {{count}} secondes.",
       "lose": "Vous n'avez pas trouvé la musique $t(heardleName) d'aujourd'hui",
-      "link": "https://github.com/prateau-base/heardle-react"
+      "link": "https://github.com/prateau/pmd-heardle"
     }
   }
 }
