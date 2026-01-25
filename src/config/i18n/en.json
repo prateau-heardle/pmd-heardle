@@ -74,7 +74,7 @@
       "win_one": "You got today's $t(heardleName) music within {{count}} second.",
       "win_other": "You got today's $t(heardleName) music within {{count}} seconds.",
       "lose": "You didn't get today's $t(heardleName) music.",
-      "link": "https://github.com/prateau/heardle-react"
+      "link": "https://prateau.github.io/heardle-react"
     }
   }
 }
