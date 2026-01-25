@@ -9,6 +9,41 @@
   {
     "id": 1,
     "name": {
+      "en": "Explorers of Time / Darkness ",
+      "fr": "Explorateurs de l’Ombre / du Temps"
+    }
+  },
+  {
+    "id": 2,
+    "name": {
+      "en": "Explorers of Sky ",
+      "fr": "Explorateurs du Ciel"
+    }
+  },
+  {
+    "id": 3,
+    "name": {
+      "en": "Adventure Squad",
+      "fr": "Les aventures du Feu / Lumière / Tempête"
+    }
+  },
+  {
+    "id": 4,
+    "name": {
+      "en": "Gates to Infinity ",
+      "fr": "Les Portes de l’Infini"
+    }
+  },
+  {
+    "id": 5,
+    "name": {
+      "en": "Super Mystery Dungeon",
+      "fr": "Méga Donjon Mystère"
+    }
+  },
+  {
+    "id": 6,
+    "name": {
       "en": "Rescue Team DX",
       "fr": "Équipe de Secours DX"
     }

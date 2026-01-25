@@ -12,5 +12,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: '/heardle-react/'
+  base: '/pmd-heardle/'
 })

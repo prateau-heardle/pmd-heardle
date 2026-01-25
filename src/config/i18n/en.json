@@ -1,11 +1,11 @@
 {
-  "heardleName": "React",
+  "heardleName": "Pokémon Mystery Dungeon",
   "title": "$t(heardleName) Heardle",
   "infiniteTitle": "$t(heardleName) Infinite Heardle",
   "header": {
     "infos": {
       "title": "About",
-      "text": "<p>A Heardle made React.</p><p>To create your own Heardle game, see <a href=\"https://github.com/prateau/heardle-react\">here</a></p>",
+      "text": "<p>A Heardle game with Pokémon Mystery Dungeon's musics.</p><p>Each music is randomly chosen from Pokémon Mystery Dungeon's game soundtrack.</p><p>Songs are listed along with the name of the games they are featured in. You can search by paired version names such as \"Blue / Red Rescue Team\" or \"Gates to Infinity\".</p><p>The music names come from official in game name when they exist (the jukeboxes), otherwise from unofficial translations. Don't hesitate to suggest me better translations for Pokémon Blue / Red Rescue Team, Adventure Squad and Rescue Team DX!</p><p>To create your own Heardle game, see <a href=\"https://github.com/prateau/heardle-react\">here</a></p>",
       "subText": "Based on <a href=\"https://github.com/prateau/heardle-react\">heardle react</a>"
     },
     "about": {
@@ -74,7 +74,7 @@
       "win_one": "You got today's $t(heardleName) music within {{count}} second.",
       "win_other": "You got today's $t(heardleName) music within {{count}} seconds.",
       "lose": "You didn't get today's $t(heardleName) music.",
-      "link": "https://github.com/prateau/heardle-react"
+      "link": "https://github.com/prateau-heardle/heardle-react"
     }
   }
 }
