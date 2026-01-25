@@ -74,7 +74,7 @@
       "win_one": "Vous avez trouvé la musique $t(heardleName) d'aujourd'hui en {{count}} seconde.",
       "win_other": "Vous avez trouvé la musique $t(heardleName) d'aujourd'hui en {{count}} secondes.",
       "lose": "Vous n'avez pas trouvé la musique $t(heardleName) d'aujourd'hui",
-      "link": "https://github.com/prateau-heardle/pmd-heardle"
+      "link": "https://prateau-heardle.github.io/pmd-heardle"
     }
   }
 }
