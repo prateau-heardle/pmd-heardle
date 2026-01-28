@@ -3,6 +3,6 @@
     flex-direction: column;
     gap: 16px 0;
 
-    height: 100vh;
+    height: 100%;
     overflow: auto;
 }
